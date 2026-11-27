@@ -1,4 +1,4 @@
-# Games API — Boggle + Millionaire + Out of Line
+# Games API — Boggle + Millionaire + Out of Line + Misclue
 
 One Go binary serving **all games** behind one API. The repo/module name stays
 `boggle-api` on purpose: the deployment, CI path and Dockerfile were built
@@ -15,6 +15,7 @@ internal/app/                  everything shared: DB pool, gin engine, /health,
 internal/boggle/               Boggle: handler, models, repository, server, service
 internal/millionaire/          Millionaire: handler, models, repository, server, service
 internal/outofline/            Out of Line: content, handler, models, repository, server, service
+internal/misclue/              Misclue: AI turn endpoint (OpenRouter), content, handler, llm, server
 internal/codes/                SHARED WORD-WORD-DD room-code generator
 internal/dberr/                SHARED unique-violation classification
 migrations/                    one sequence, table-prefixed per game
@@ -33,6 +34,7 @@ route tree. Neither game dials the database, listens on a port, or owns
 | Boggle | `/api/boggle/*` | `/ws/boggle/rooms`, `/ws/boggle/rooms/:code` |
 | Millionaire | `/api/millionaire/*` | `/ws/millionaire/rooms`, `/ws/millionaire/rooms/:code` |
 | Out of Line | `/api/out-of-line/*` | `/ws/out-of-line/rooms/:code` |
+| Misclue | `/api/misclue/ai/turn` | — (stateless AI endpoint) |
 | all | `GET /health` | |
 
 **Room codes.** Multiplayer rooms use the same `WORD-WORD-DD` vocabulary
@@ -166,6 +168,15 @@ The server sends personalized `room_state` snapshots: hands are private, judge
 submissions are anonymous during judging, and reveal/finished states expose
 authors and winner.
 
+## Misclue
+
+Misclue is a secret-word social deduction game. Party Mode is fully client-side;
+Solo Mode uses a stateless AI endpoint.
+
+- `POST /api/misclue/ai/turn` — resolve an AI character action (`clue`, `vote`, `drifter_guess`). Requires `OPENROUTER_API_KEY`.
+
+The endpoint validates model output, enforces clue/vote rules, and retries once on model/validation failure. If both attempts fail, it returns a clear 502 error; the frontend shows a manual retry (no fake fallback clues).
+
 ## Setup
 
 1. Open the repo in VS Code and reopen in the dev container.
@@ -178,10 +189,20 @@ authors and winner.
 
 ## Environment variables
 
-- `DATABASE_URL` — defaults to the devcontainer's `db` service.
-- `ALLOWED_ORIGINS` — comma-separated; feeds both the REST CORS middleware and
-  each game's WebSocket origin check.
-- `PORT` — bind port (default `:8080`; Azure Container Apps passes `PORT`).
+The API loads env files at startup: `.env.local` first, then `.env` (process
+env vars always win). `.env` is committed with non-secret defaults; `.env.local`
+is gitignored for local overrides/secrets.
+
+To configure locally, copy `.env` to `.env.local` and set/override values there
+(for example `OPENROUTER_API_KEY`). Do not put secrets in `.env`.
+
+- `DATABASE_URL` — defaults to the devcontainer `db` service.
+- `ALLOWED_ORIGINS` — comma-separated; feeds REST CORS and WebSocket origin checks.
+- `PORT` — bind port (default `8080`).
+- `OPENROUTER_API_KEY` — required for Misclue Solo Mode AI turns.
+- `OPENROUTER_MODEL` — optional; defaults to `openrouter/free` (free models router). Pin a specific model in `.env.local` if you want more stable behavior.
+- `OPENROUTER_BASE_URL` — optional; defaults to `https://openrouter.ai/api/v1`.
+- `MISCLUE_AI_RATE_LIMIT_PER_MIN` — optional; stricter per-IP rate limit for `POST /api/misclue/ai/turn`. Default is the shared strict limit (300/min). If set to a positive integer <= 300, that value is used.
 
 ## Testing
 

@@ -16,17 +16,6 @@ services:
     volumes:
       - ../:/workspace:cached
     command: sleep infinity
-    environment:
-      # ONE database for both games — the tables are namespaced
-      # (boggle_* / millionaire_*), never separated by database.
-      #
-      # The database keeps its ORIGINAL NAME (`boggle`) on purpose: this is the
-      # existing database, reused. Migration 000 renames the tables inside it
-      # in place; renaming the database itself would throw that away and force
-      # a fresh volume.
-      - DATABASE_URL=postgres://devuser:devpassword@db:5432/boggle?sslmode=disable
-      # The hub serves the FE from one dev origin (5173).
-      - ALLOWED_ORIGINS=http://localhost:5173,http://127.0.0.1:5173,http://host.docker.internal:5173
     ports:
       - "8080:8080" # ONE API for every game: /api/boggle/*, /api/millionaire/*
     depends_on:
