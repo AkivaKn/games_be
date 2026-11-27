@@ -1,6 +1,8 @@
 # Local/editor cruft
 *debug
+__debug_bin*
 .DS_Store
+.env.local
 
 # Labelling working directory (batch inputs/outputs are per-run artefacts;
 # the tool that produces them is cmd/label, tracked).
