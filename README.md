@@ -1,21 +1,22 @@
-# Games API — Boggle + Millionaire
+# Games API — Boggle + Millionaire + Out of Line
 
-One Go binary serving **both games** behind one API. The repo/module name stays
+One Go binary serving **all games** behind one API. The repo/module name stays
 `boggle-api` on purpose: the deployment, CI path and Dockerfile were built
-around it, and folding a second game in is not a reason to churn them. The
+around it, and folding more games in is not a reason to churn them. The
 internal packages are what names the games honestly.
 
 ## Project structure
 
 ```
-cmd/api/                       ONE binary — registers both games' route trees
+cmd/api/                       ONE binary — registers all game route trees
 cmd/{seed,import,label,backfill}/   one-shot question-corpus tooling (Millionaire)
 internal/app/                  everything shared: DB pool, gin engine, /health,
                                CORS, rate limits, origin allowlist
 internal/boggle/               Boggle: handler, models, repository, server, service
 internal/millionaire/          Millionaire: handler, models, repository, server, service
-internal/codes/                SHARED WORD-WORD-DD room-code generator (both games)
-internal/dberr/                SHARED unique-violation classification (both games)
+internal/outofline/            Out of Line: content, handler, models, repository, server, service
+internal/codes/                SHARED WORD-WORD-DD room-code generator
+internal/dberr/                SHARED unique-violation classification
 migrations/                    one sequence, table-prefixed per game
 data/                          the WWTBAM + OpenTDB question corpora (import seeds)
 ```
@@ -31,20 +32,21 @@ route tree. Neither game dials the database, listens on a port, or owns
 |---|---|---|
 | Boggle | `/api/boggle/*` | `/ws/boggle/rooms`, `/ws/boggle/rooms/:code` |
 | Millionaire | `/api/millionaire/*` | `/ws/millionaire/rooms`, `/ws/millionaire/rooms/:code` |
-| both | `GET /health` | |
+| Out of Line | `/api/out-of-line/*` | `/ws/out-of-line/rooms/:code` |
+| all | `GET /health` | |
 
-**Room codes.** Both games use the same `WORD-WORD-DD` vocabulary (e.g.
-`BLUE-TIGER-73`) from `internal/codes`. A code is what you share; the uuid
-stays the internal key. WebSocket joins are strictly code-keyed (a mistyped
-code fails rather than resolving somewhere else); the REST resolver is
-code-first with a uuid fallback so existing links keep working.
+**Room codes.** Multiplayer rooms use the same `WORD-WORD-DD` vocabulary
+(e.g. `BLUE-TIGER-73`) from `internal/codes`. A code is what you share; the
+uuid stays the internal key. WebSocket joins are strictly code-keyed.
+Millionaire's REST resolver is code-first with a uuid fallback for existing
+links.
 
 ## The database
 
-One database hosts both games, namespaced by **table prefix** — `boggle_*` and
-`millionaire_*`. This is deliberate: separating by schema or `search_path`
-means one unqualified query can silently cross games, while prefixes make that
-impossible by construction.
+One database hosts all games, namespaced by **table prefix** — `boggle_*`,
+`millionaire_*`, and `outofline_*`. This is deliberate: separating by schema or
+`search_path` means one unqualified query can silently cross games, while
+prefixes make that impossible by construction.
 
 | File | What it does |
 |---|---|
@@ -52,15 +54,17 @@ impossible by construction.
 | `001_boggle_schema.sql` | Boggle's schema. |
 | `002_millionaire_schema.sql` | Millionaire's cumulative schema. |
 | `003_boggle_room_codes.sql` | Boggle's `code` column + partial unique index. |
+| `004_outofline_schema.sql` | Out of Line's room/player/round/submission schema. |
 
-Fresh database: apply `000` → `001` → `002` → `003` in order (`000` is a no-op
-when there is nothing to rename). Existing database with data: run `000` once
-and stop — it renames in place; **do not** then run `001`/`002`, which DROP and
-recreate.
+Fresh database: apply `000` → `001` → `002` → `003` → `004` in order (`000` is a
+no-op when there is nothing to rename). Existing database with data: run `000`
+once and stop — it renames in place; **do not** then run `001`/`002`, which
+DROP and recreate. For an existing database that already has Boggle/Millionaire
+tables, apply `004` manually.
 
-The devcontainer mounts `migrations/` at `/docker-entrypoint-initdb.d`, so all
-four run automatically **on first boot only**. For an existing volume, apply new
-files by hand:
+The devcontainer mounts `migrations/` at `/docker-entrypoint-initdb.d`, so the
+schema files run automatically **on first boot only**. For an existing volume,
+apply new files by hand:
 
 ```sh
 psql "$DATABASE_URL" -f migrations/00X_new_thing.sql
@@ -138,12 +142,38 @@ Both generated files are rebuilt from the live database with
 The OTQA corpus and the rating/label pipeline use `cmd/seed`, `cmd/label` the
 same way (see `cmd/*/main.go` flags).
 
+## Out of Line
+
+Out of Line is a real-time multiplayer judge-and-submit party game.
+Card content is embedded in the API binary under
+`internal/outofline/content/decks/*.json`; adding a deck requires updating the
+JSON and rebuilding the API.
+
+Current decks: House (100 prompts / 310 answers, 15+, always on), Group Chat
+(40/110), Work Mode (40/110), Bad Decisions (40/110), Deadpan Doom (40/110),
+Family Gathering (40/110, all 15+), and After Hours (40/110, 18+, suggestive).
+
+Key endpoints:
+
+- `GET /api/out-of-line/decks` — public deck metadata
+- `POST /api/out-of-line/rooms` — create room, returns host token
+- `GET /api/out-of-line/rooms/:code` — public room preview
+- `POST /api/out-of-line/rooms/:code/start|submit|pick|next|force|remove|rematch`
+- `GET /ws/out-of-line/rooms/:code?token=...` — reconnect
+- `GET /ws/out-of-line/rooms/:code?name=...&adult_confirmed=...` — join
+
+The server sends personalized `room_state` snapshots: hands are private, judge
+submissions are anonymous during judging, and reveal/finished states expose
+authors and winner.
+
 ## Setup
 
 1. Open the repo in VS Code and reopen in the dev container.
 2. `go mod tidy`
-3. `go run ./cmd/api` → API on <http://localhost:8080>.
-4. Frontend lives in the sibling `boggle_fe` repo: `npm run dev` → hub on
+3. Apply `migrations/004_outofline_schema.sql` if your database volume predates
+   Out of Line.
+4. `go run ./cmd/api` → API on <http://localhost:8080>.
+5. Frontend lives in the sibling `boggle_fe` repo: `npm run dev` → hub on
    <http://localhost:5173> (`/` picks a game).
 
 ## Environment variables

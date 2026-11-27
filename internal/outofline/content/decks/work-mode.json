@@ -1,0 +1,650 @@
+{
+  "id": "work-mode",
+  "name": "Work Mode",
+  "description": "Meetings, printers, and the quiet chaos of office life.",
+  "rating": "teen",
+  "prompts": [
+    {
+      "id": "work-p01",
+      "text": "The new onboarding video is mostly a warning about ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p02",
+      "text": "HR has updated the policy on ___ after the incident.",
+      "pick": 1
+    },
+    {
+      "id": "work-p03",
+      "text": "The office kitchen rules were written in blood because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p04",
+      "text": "The quarterly meeting was derailed by ___ and a collective breakdown.",
+      "pick": 1
+    },
+    {
+      "id": "work-p05",
+      "text": "The CEO's vision statement now includes ___ and plausible deniability.",
+      "pick": 1
+    },
+    {
+      "id": "work-p06",
+      "text": "The most cursed item in the stationery cupboard is ___, and it knows your name.",
+      "pick": 1
+    },
+    {
+      "id": "work-p07",
+      "text": "The team-building day ended with ___ and three resignation drafts.",
+      "pick": 1
+    },
+    {
+      "id": "work-p08",
+      "text": "The performance review praised my brave handling of ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p09",
+      "text": "The office printer has developed a taste for ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p10",
+      "text": "The new hire was brought in specifically to survive ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p11",
+      "text": "The company retreat became a crisis over ___ and untreated burnout.",
+      "pick": 1
+    },
+    {
+      "id": "work-p12",
+      "text": "The exit interview was mostly screaming about ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p13",
+      "text": "The office temperature war is really about ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p14",
+      "text": "The worst thing to find in the shared fridge is ___ with your name on it.",
+      "pick": 1
+    },
+    {
+      "id": "work-p15",
+      "text": "The corporate values poster now features ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p16",
+      "text": "The boss's motivational speech was interrupted by ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p17",
+      "text": "The new role combines ___ with ___.",
+      "pick": 2
+    },
+    {
+      "id": "work-p18",
+      "text": "The new software rollout failed because of ___ and one cursed spreadsheet.",
+      "pick": 1
+    },
+    {
+      "id": "work-p19",
+      "text": "The Christmas party budget was spent entirely on ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p20",
+      "text": "The office's two biggest problems are ___ and ___.",
+      "pick": 2
+    },
+    {
+      "id": "work-p21",
+      "text": "The new KPI measures ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p22",
+      "text": "The team Slack channel was archived after ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p23",
+      "text": "The company values now include ___ and selective memory.",
+      "pick": 1
+    },
+    {
+      "id": "work-p24",
+      "text": "The only thing keeping this department together is ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p25",
+      "text": "The intern saw ___ and chose a different career.",
+      "pick": 1
+    },
+    {
+      "id": "work-p26",
+      "text": "The performance improvement plan cited ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p27",
+      "text": "The office ghost haunts the floor because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p28",
+      "text": "The all-hands meeting could have been replaced by ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p29",
+      "text": "The new remote work policy bans ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p30",
+      "text": "The promotion went to whoever survived ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p31",
+      "text": "The HR complaint form just has a checkbox for ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p32",
+      "text": "The company rebrand is trying to distract from ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p33",
+      "text": "The worst thing to say on a recorded call is ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p34",
+      "text": "The budget was cut to fund ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p35",
+      "text": "The team bonding exercise revealed ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p36",
+      "text": "The out-of-office reply accidentally included ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p37",
+      "text": "The resignation email was just a subject line: ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p38",
+      "text": "The new manager communicates exclusively by ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p39",
+      "text": "The office emergency plan is basically ___.",
+      "pick": 1
+    },
+    {
+      "id": "work-p40",
+      "text": "The annual review ended with ___ and an awkward handshake.",
+      "pick": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": "work-a001",
+      "text": "Meeting that could have been a funeral email"
+    },
+    {
+      "id": "work-a002",
+      "text": "Aggressive spreadsheet"
+    },
+    {
+      "id": "work-a003",
+      "text": "A passive-aggressive note written in red pen"
+    },
+    {
+      "id": "work-a004",
+      "text": "The last clean teaspoon"
+    },
+    {
+      "id": "work-a005",
+      "text": "A suspiciously warm chair"
+    },
+    {
+      "id": "work-a006",
+      "text": "Unpaid overtime shift disguised as opportunity"
+    },
+    {
+      "id": "work-a007",
+      "text": "A deeply unhelpful job description for your own role"
+    },
+    {
+      "id": "work-a008",
+      "text": "Office printer's revenge"
+    },
+    {
+      "id": "work-a009",
+      "text": "A corporate buzzword generator"
+    },
+    {
+      "id": "work-a010",
+      "text": "Mandatory fun with visible despair"
+    },
+    {
+      "id": "work-a011",
+      "text": "A very serious lanyard"
+    },
+    {
+      "id": "work-a012",
+      "text": "The wrong kind of synergy"
+    },
+    {
+      "id": "work-a013",
+      "text": "Suspiciously cheap team lunch with consequences"
+    },
+    {
+      "id": "work-a014",
+      "text": "Accidental reply-all"
+    },
+    {
+      "id": "work-a015",
+      "text": "The boss's favourite mug"
+    },
+    {
+      "id": "work-a016",
+      "text": "A deeply personal performance review"
+    },
+    {
+      "id": "work-a017",
+      "text": "Broken coffee machine"
+    },
+    {
+      "id": "work-a018",
+      "text": "The intern's secret power"
+    },
+    {
+      "id": "work-a019",
+      "text": "Wildly optimistic deadline from someone who left at five"
+    },
+    {
+      "id": "work-a020",
+      "text": "A very public resignation"
+    },
+    {
+      "id": "work-a021",
+      "text": "An emergency stationery order during a meltdown"
+    },
+    {
+      "id": "work-a022",
+      "text": "The office plant's slow, public decline"
+    },
+    {
+      "id": "work-a023",
+      "text": "Motivational poster with no message"
+    },
+    {
+      "id": "work-a024",
+      "text": "A suspiciously specific job title"
+    },
+    {
+      "id": "work-a025",
+      "text": "The last visitor parking spot"
+    },
+    {
+      "id": "work-a026",
+      "text": "A deeply awkward handshake"
+    },
+    {
+      "id": "work-a027",
+      "text": "An unassigned desk"
+    },
+    {
+      "id": "work-a028",
+      "text": "Printer's weekly jam and personal vendetta"
+    },
+    {
+      "id": "work-a029",
+      "text": "A fake sick day"
+    },
+    {
+      "id": "work-a030",
+      "text": "A very serious fire drill"
+    },
+    {
+      "id": "work-a031",
+      "text": "An unpaid lunch break spent crying in the stairwell"
+    },
+    {
+      "id": "work-a032",
+      "text": "A suspiciously calm manager"
+    },
+    {
+      "id": "work-a033",
+      "text": "Wrong kind of feedback"
+    },
+    {
+      "id": "work-a034",
+      "text": "A cursed spreadsheet formula"
+    },
+    {
+      "id": "work-a035",
+      "text": "A very small promotion"
+    },
+    {
+      "id": "work-a036",
+      "text": "An accidental calendar invite"
+    },
+    {
+      "id": "work-a037",
+      "text": "Office's least favourite client"
+    },
+    {
+      "id": "work-a038",
+      "text": "A deeply unromantic office romance born of desperation"
+    },
+    {
+      "id": "work-a039",
+      "text": "Suspiciously cheerful email"
+    },
+    {
+      "id": "work-a040",
+      "text": "The last biscuit in the tin"
+    },
+    {
+      "id": "work-a041",
+      "text": "An emergency leave request"
+    },
+    {
+      "id": "work-a042",
+      "text": "Very dramatic exit"
+    },
+    {
+      "id": "work-a043",
+      "text": "The wrong kind of teamwork: trauma bonding"
+    },
+    {
+      "id": "work-a044",
+      "text": "A suspiciously detailed org chart"
+    },
+    {
+      "id": "work-a045",
+      "text": "An unnecessary acronym"
+    },
+    {
+      "id": "work-a046",
+      "text": "The office's last working pen"
+    },
+    {
+      "id": "work-a047",
+      "text": "A deeply questionable dress code enforced by a ghost"
+    },
+    {
+      "id": "work-a048",
+      "text": "Surprise compliance visit"
+    },
+    {
+      "id": "work-a049",
+      "text": "Last remaining brain cell in marketing, on life support"
+    },
+    {
+      "id": "work-a050",
+      "text": "An unpaid invoice"
+    },
+    {
+      "id": "work-a051",
+      "text": "A spreadsheet full of lies"
+    },
+    {
+      "id": "work-a052",
+      "text": "A motivational poster above a fire exit"
+    },
+    {
+      "id": "work-a053",
+      "text": "Manager who discovered the word 'synergy'"
+    },
+    {
+      "id": "work-a054",
+      "text": "Calendar full of fake meetings"
+    },
+    {
+      "id": "work-a055",
+      "text": "A team-building exercise that caused actual injuries"
+    },
+    {
+      "id": "work-a056",
+      "text": "A resignation letter written in Comic Sans"
+    },
+    {
+      "id": "work-a057",
+      "text": "A performance review conducted via vibes"
+    },
+    {
+      "id": "work-a058",
+      "text": "An inbox with 4,000 unread cries for help"
+    },
+    {
+      "id": "work-a059",
+      "text": "Coffee machine that has seen too much"
+    },
+    {
+      "id": "work-a060",
+      "text": "Corporate apology drafted by legal and panic"
+    },
+    {
+      "id": "work-a061",
+      "text": "A Zoom call where everyone is clearly unravelling"
+    },
+    {
+      "id": "work-a062",
+      "text": "A promotion with no raise and extra suffering"
+    },
+    {
+      "id": "work-a063",
+      "text": "Shared drive called 'DO NOT OPEN'"
+    },
+    {
+      "id": "work-a064",
+      "text": "A desk plant witnessing your downfall"
+    },
+    {
+      "id": "work-a065",
+      "text": "A quarterly target pulled from thin air"
+    },
+    {
+      "id": "work-a066",
+      "text": "Meeting invite with no agenda and no mercy"
+    },
+    {
+      "id": "work-a067",
+      "text": "A cheerful email hiding pure menace"
+    },
+    {
+      "id": "work-a068",
+      "text": "Burnout so strong it has a calendar invite"
+    },
+    {
+      "id": "work-a069",
+      "text": "Job title that means nothing and hurts anyway"
+    },
+    {
+      "id": "work-a070",
+      "text": "'quick sync' that destroys your afternoon"
+    },
+    {
+      "id": "work-a071",
+      "text": "A passive-aggressive Slack status"
+    },
+    {
+      "id": "work-a072",
+      "text": "A manager saying 'let's circle back' to your soul"
+    },
+    {
+      "id": "work-a073",
+      "text": "An office chair with the will to kill"
+    },
+    {
+      "id": "work-a074",
+      "text": "Strategy deck made of delusion"
+    },
+    {
+      "id": "work-a075",
+      "text": "Team lunch with forced fun and cold pizza"
+    },
+    {
+      "id": "work-a076",
+      "text": "A whiteboard full of bad ideas and regret"
+    },
+    {
+      "id": "work-a077",
+      "text": "A farewell card signed by people who don't know you"
+    },
+    {
+      "id": "work-a078",
+      "text": "Company value nobody can define"
+    },
+    {
+      "id": "work-a079",
+      "text": "A printer that smells fear"
+    },
+    {
+      "id": "work-a080",
+      "text": "HR training video from hell"
+    },
+    {
+      "id": "work-a081",
+      "text": "A broken air conditioner and broken dreams"
+    },
+    {
+      "id": "work-a082",
+      "text": "Deadline that laughs at time"
+    },
+    {
+      "id": "work-a083",
+      "text": "PTO request met with emotional blackmail"
+    },
+    {
+      "id": "work-a084",
+      "text": "Conference room that smells of despair"
+    },
+    {
+      "id": "work-a085",
+      "text": "A spreadsheet tab called 'panic'"
+    },
+    {
+      "id": "work-a086",
+      "text": "A 5 p.m. Friday meeting invite"
+    },
+    {
+      "id": "work-a087",
+      "text": "A reply-all apocalypse"
+    },
+    {
+      "id": "work-a088",
+      "text": "Career ladder missing several rungs"
+    },
+    {
+      "id": "work-a089",
+      "text": "Motivational quote over a stock photo of failure"
+    },
+    {
+      "id": "work-a090",
+      "text": "Swivel chair slowly drifting into madness"
+    },
+    {
+      "id": "work-a091",
+      "text": "A performance bonus in the form of exposure"
+    },
+    {
+      "id": "work-a092",
+      "text": "A team morale survey nobody answered honestly"
+    },
+    {
+      "id": "work-a093",
+      "text": "Corporate retreat with trust falls and trust issues"
+    },
+    {
+      "id": "work-a094",
+      "text": "Intern running the whole company by accident"
+    },
+    {
+      "id": "work-a095",
+      "text": "A passive-aggressive out-of-office reply"
+    },
+    {
+      "id": "work-a096",
+      "text": "Cursed shared calendar"
+    },
+    {
+      "id": "work-a097",
+      "text": "Job interview question designed by a sociopath"
+    },
+    {
+      "id": "work-a098",
+      "text": "A leadership workshop with no leaders"
+    },
+    {
+      "id": "work-a099",
+      "text": "'we're like a family here' red flag"
+    },
+    {
+      "id": "work-a100",
+      "text": "A stapler holding the company together"
+    },
+    {
+      "id": "work-a101",
+      "text": "📉"
+    },
+    {
+      "id": "work-a102",
+      "text": "💀"
+    },
+    {
+      "id": "work-a103",
+      "text": "🫠"
+    },
+    {
+      "id": "work-a104",
+      "text": "🔥"
+    },
+    {
+      "id": "work-a105",
+      "text": "🗂️"
+    },
+    {
+      "id": "work-a106",
+      "text": "☕"
+    },
+    {
+      "id": "work-a107",
+      "text": "🤡"
+    },
+    {
+      "id": "work-a108",
+      "text": "🚩"
+    },
+    {
+      "id": "work-a109",
+      "text": "🪦"
+    },
+    {
+      "id": "work-a110",
+      "text": "📧"
+    }
+  ]
+}

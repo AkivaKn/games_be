@@ -10,6 +10,10 @@ DROP TABLE IF EXISTS millionaire_room_questions CASCADE;
 DROP TABLE IF EXISTS millionaire_players CASCADE;
 DROP TABLE IF EXISTS millionaire_questions CASCADE;
 DROP TABLE IF EXISTS millionaire_rooms CASCADE;
+DROP TABLE IF EXISTS outofline_submissions CASCADE;
+DROP TABLE IF EXISTS outofline_rounds CASCADE;
+DROP TABLE IF EXISTS outofline_players CASCADE;
+DROP TABLE IF EXISTS outofline_rooms CASCADE;
 DROP TABLE IF EXISTS boards CASCADE;
 DROP TABLE IF EXISTS rooms CASCADE;
 DROP TABLE IF EXISTS room_totals CASCADE;
@@ -109,3 +113,59 @@ CREATE TABLE millionaire_room_totals (
     updated_at timestamptz NOT NULL DEFAULT now(),
     UNIQUE (room_id, seat)
 );
+
+CREATE TABLE outofline_rooms (
+    id             uuid PRIMARY KEY,
+    code           text NOT NULL,
+    status         text NOT NULL DEFAULT 'lobby' CHECK (status IN ('lobby', 'active', 'finished')),
+    phase          text NOT NULL DEFAULT 'lobby' CHECK (phase IN ('lobby', 'submitting', 'judging', 'reveal', 'finished')),
+    host_seat      int  NOT NULL CHECK (host_seat BETWEEN 1 AND 12),
+    deck_ids       jsonb NOT NULL DEFAULT '[]'::jsonb,
+    target_score   int  NOT NULL DEFAULT 5 CHECK (target_score BETWEEN 3 AND 7),
+    judge_seat     int  NOT NULL DEFAULT 0 CHECK (judge_seat BETWEEN 0 AND 12),
+    round_no       int  NOT NULL DEFAULT 0 CHECK (round_no >= 0),
+    prompt         jsonb NOT NULL DEFAULT '{}'::jsonb,
+    prompt_draw    jsonb NOT NULL DEFAULT '[]'::jsonb,
+    answer_draw    jsonb NOT NULL DEFAULT '[]'::jsonb,
+    answer_discard jsonb NOT NULL DEFAULT '[]'::jsonb,
+    created_at     timestamptz NOT NULL DEFAULT now(),
+    updated_at     timestamptz NOT NULL DEFAULT now()
+);
+CREATE UNIQUE INDEX idx_outofline_rooms_code_unique ON outofline_rooms (code);
+
+CREATE TABLE outofline_players (
+    id         uuid PRIMARY KEY,
+    room_id    uuid NOT NULL REFERENCES outofline_rooms(id) ON DELETE CASCADE,
+    seat       int  NOT NULL CHECK (seat BETWEEN 1 AND 12),
+    token      uuid NOT NULL,
+    name       text NOT NULL,
+    score      int  NOT NULL DEFAULT 0 CHECK (score >= 0),
+    hand       jsonb NOT NULL DEFAULT '[]'::jsonb,
+    created_at timestamptz NOT NULL DEFAULT now(),
+    UNIQUE (room_id, seat),
+    UNIQUE (token)
+);
+CREATE INDEX idx_outofline_players_room ON outofline_players (room_id);
+
+CREATE TABLE outofline_rounds (
+    id                   uuid PRIMARY KEY,
+    room_id              uuid NOT NULL REFERENCES outofline_rooms(id) ON DELETE CASCADE,
+    round_no             int  NOT NULL CHECK (round_no >= 1),
+    prompt               jsonb NOT NULL,
+    judge_seat           int  NOT NULL CHECK (judge_seat BETWEEN 1 AND 12),
+    winner_submission_id text NOT NULL DEFAULT '',
+    created_at           timestamptz NOT NULL DEFAULT now(),
+    UNIQUE (room_id, round_no)
+);
+CREATE INDEX idx_outofline_rounds_room ON outofline_rounds (room_id);
+
+CREATE TABLE outofline_submissions (
+    id            uuid PRIMARY KEY,
+    round_id      uuid NOT NULL REFERENCES outofline_rounds(id) ON DELETE CASCADE,
+    seat          int  NOT NULL CHECK (seat BETWEEN 1 AND 12),
+    cards         jsonb NOT NULL,
+    display_order int  NOT NULL DEFAULT 0,
+    created_at    timestamptz NOT NULL DEFAULT now(),
+    UNIQUE (round_id, seat)
+);
+CREATE INDEX idx_outofline_submissions_round ON outofline_submissions (round_id);

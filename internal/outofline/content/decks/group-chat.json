@@ -1,0 +1,650 @@
+{
+  "id": "group-chat",
+  "name": "Group Chat",
+  "description": "Screenshots, voice notes, and the slow collapse of a friend group.",
+  "rating": "teen",
+  "prompts": [
+    {
+      "id": "group-p01",
+      "text": "The group chat renamed itself after ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p02",
+      "text": "The reason everyone left the chat was ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p03",
+      "text": "The screenshot that ended the friendship featured ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p04",
+      "text": "The voice note was fourteen minutes of ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p05",
+      "text": "The group's emergency plan is just ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p06",
+      "text": "The chat's most controversial opinion involves ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p07",
+      "text": "Someone sent a three a.m. message about ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p08",
+      "text": "The group's new rule exists because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p09",
+      "text": "The worst thing to send to the wrong chat is ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p10",
+      "text": "The reunion was cancelled because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p11",
+      "text": "The group chat has a dedicated channel for ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p12",
+      "text": "The last person to leave the group was ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p13",
+      "text": "The plan fell apart thanks to ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p14",
+      "text": "The meme that got everyone blocked was about ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p15",
+      "text": "The chat's unofficial mascot is ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p16",
+      "text": "The birthday surprise was ruined by ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p17",
+      "text": "The chat has two moods: ___ and ___.",
+      "pick": 2
+    },
+    {
+      "id": "group-p18",
+      "text": "The group invested fifty pounds in ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p19",
+      "text": "The holiday group chat became a war over ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p20",
+      "text": "The group's weekend plan combines ___ with ___.",
+      "pick": 2
+    },
+    {
+      "id": "group-p21",
+      "text": "The group chat went nuclear over ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p22",
+      "text": "Someone's apology in the chat was just ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p23",
+      "text": "The voice note everyone refused to open contained ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p24",
+      "text": "The group photo caption was changed to ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p25",
+      "text": "The chat's new pinned message is a warning about ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p26",
+      "text": "The most cursed thing shared at 2 a.m. was ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p27",
+      "text": "The group therapist would have a field day with us ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p28",
+      "text": "The reason the group chat is now evidence is ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p29",
+      "text": "We all pretended not to see ___ in the chat.",
+      "pick": 1
+    },
+    {
+      "id": "group-p30",
+      "text": "The group holiday died in the group chat because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p31",
+      "text": "The most passive-aggressive emoji combination meant ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p32",
+      "text": "The friend who 'left the chat' came back to post ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p33",
+      "text": "The chat was silent until someone dropped ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p34",
+      "text": "The group's biggest mistake was trusting ___ with the plan.",
+      "pick": 1
+    },
+    {
+      "id": "group-p35",
+      "text": "The birthday message was ruined by ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p36",
+      "text": "The one message nobody can ever unsend is ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p37",
+      "text": "The group chat got renamed after ___ again.",
+      "pick": 1
+    },
+    {
+      "id": "group-p38",
+      "text": "The worst possible reply to a serious message is ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p39",
+      "text": "The group chat's villain origin story starts with ___.",
+      "pick": 1
+    },
+    {
+      "id": "group-p40",
+      "text": "The shared album is now just 400 photos of ___.",
+      "pick": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": "group-a001",
+      "text": "A screenshot with no context"
+    },
+    {
+      "id": "group-a002",
+      "text": "An unsolicited voice note"
+    },
+    {
+      "id": "group-a003",
+      "text": "A reply-all disaster"
+    },
+    {
+      "id": "group-a004",
+      "text": "Deeply cursed meme"
+    },
+    {
+      "id": "group-a005",
+      "text": "Wrong emoji"
+    },
+    {
+      "id": "group-a006",
+      "text": "Three a.m. confession"
+    },
+    {
+      "id": "group-a007",
+      "text": "An accidental like"
+    },
+    {
+      "id": "group-a008",
+      "text": "A group project dictatorship"
+    },
+    {
+      "id": "group-a009",
+      "text": "Suspiciously specific poll"
+    },
+    {
+      "id": "group-a010",
+      "text": "Deleted message"
+    },
+    {
+      "id": "group-a011",
+      "text": "The group's least reliable member"
+    },
+    {
+      "id": "group-a012",
+      "text": "A passive-aggressive thumbs-up"
+    },
+    {
+      "id": "group-a013",
+      "text": "An unpaid dinner bill"
+    },
+    {
+      "id": "group-a014",
+      "text": "A very public typo"
+    },
+    {
+      "id": "group-a015",
+      "text": "The admin's secret second account"
+    },
+    {
+      "id": "group-a016",
+      "text": "Dramatic flounce"
+    },
+    {
+      "id": "group-a017",
+      "text": "Five-hour voice memo"
+    },
+    {
+      "id": "group-a018",
+      "text": "Deeply personal Spotify link"
+    },
+    {
+      "id": "group-a019",
+      "text": "Screenshot of a screenshot"
+    },
+    {
+      "id": "group-a020",
+      "text": "Unread message from 2019"
+    },
+    {
+      "id": "group-a021",
+      "text": "Suspiciously calm response"
+    },
+    {
+      "id": "group-a022",
+      "text": "The group's shared braincell"
+    },
+    {
+      "id": "group-a023",
+      "text": "An emergency pizza order"
+    },
+    {
+      "id": "group-a024",
+      "text": "A wildly inaccurate itinerary"
+    },
+    {
+      "id": "group-a025",
+      "text": "A group chat coup"
+    },
+    {
+      "id": "group-a026",
+      "text": "An accidental group call"
+    },
+    {
+      "id": "group-a027",
+      "text": "A deeply unhelpful poll"
+    },
+    {
+      "id": "group-a028",
+      "text": "Wrong kind of gossip"
+    },
+    {
+      "id": "group-a029",
+      "text": "Cursed inside joke"
+    },
+    {
+      "id": "group-a030",
+      "text": "A very serious emoji debate"
+    },
+    {
+      "id": "group-a031",
+      "text": "An unpaid emotional debt"
+    },
+    {
+      "id": "group-a032",
+      "text": "A suspiciously cheap Airbnb"
+    },
+    {
+      "id": "group-a033",
+      "text": "A dramatic departure"
+    },
+    {
+      "id": "group-a034",
+      "text": "Group's least favourite plan"
+    },
+    {
+      "id": "group-a035",
+      "text": "A reply that was definitely meant for someone else"
+    },
+    {
+      "id": "group-a036",
+      "text": "A deeply questionable playlist"
+    },
+    {
+      "id": "group-a037",
+      "text": "An invitation with no details"
+    },
+    {
+      "id": "group-a038",
+      "text": "Very late apology"
+    },
+    {
+      "id": "group-a039",
+      "text": "Last slice of group harmony"
+    },
+    {
+      "id": "group-a040",
+      "text": "Fake emergency"
+    },
+    {
+      "id": "group-a041",
+      "text": "A surprisingly aggressive reaction"
+    },
+    {
+      "id": "group-a042",
+      "text": "An uninvited guest"
+    },
+    {
+      "id": "group-a043",
+      "text": "Mysterious plus-one"
+    },
+    {
+      "id": "group-a044",
+      "text": "The wrong group photo"
+    },
+    {
+      "id": "group-a045",
+      "text": "Suspiciously wholesome meme"
+    },
+    {
+      "id": "group-a046",
+      "text": "An outstanding group bet"
+    },
+    {
+      "id": "group-a047",
+      "text": "A deeply awkward reunion"
+    },
+    {
+      "id": "group-a048",
+      "text": "The group's only adult"
+    },
+    {
+      "id": "group-a049",
+      "text": "A very public U-turn"
+    },
+    {
+      "id": "group-a050",
+      "text": "Accidental confession"
+    },
+    {
+      "id": "group-a051",
+      "text": "47-message rant with no punctuation"
+    },
+    {
+      "id": "group-a052",
+      "text": "A screenshot sent to the person it was about"
+    },
+    {
+      "id": "group-a053",
+      "text": "Cursed GIF nobody asked for"
+    },
+    {
+      "id": "group-a054",
+      "text": "An accidental location share"
+    },
+    {
+      "id": "group-a055",
+      "text": "A voice note that starts with heavy breathing"
+    },
+    {
+      "id": "group-a056",
+      "text": "A 'seen by everyone' silence"
+    },
+    {
+      "id": "group-a057",
+      "text": "A passive-aggressive thumbs-up at the worst time"
+    },
+    {
+      "id": "group-a058",
+      "text": "Message that just says 'we need to talk'"
+    },
+    {
+      "id": "group-a059",
+      "text": "Unhinged poll with no good options"
+    },
+    {
+      "id": "group-a060",
+      "text": "Blurry screenshot of drama"
+    },
+    {
+      "id": "group-a061",
+      "text": "A drunk text to the family chat"
+    },
+    {
+      "id": "group-a062",
+      "text": "A meme that aged like milk"
+    },
+    {
+      "id": "group-a063",
+      "text": "A typo that changed everything"
+    },
+    {
+      "id": "group-a064",
+      "text": "Emoji-only argument"
+    },
+    {
+      "id": "group-a065",
+      "text": "A link nobody should have clicked"
+    },
+    {
+      "id": "group-a066",
+      "text": "A group call started by accident at 3 a.m."
+    },
+    {
+      "id": "group-a067",
+      "text": "Reply that made it so much worse"
+    },
+    {
+      "id": "group-a068",
+      "text": "A paragraph apology nobody read"
+    },
+    {
+      "id": "group-a069",
+      "text": "Calendar invite to chaos"
+    },
+    {
+      "id": "group-a070",
+      "text": "A 'haha' followed by immediate silence"
+    },
+    {
+      "id": "group-a071",
+      "text": "A cursed sticker pack"
+    },
+    {
+      "id": "group-a072",
+      "text": "Friend typing for ten minutes and sending 'k'"
+    },
+    {
+      "id": "group-a073",
+      "text": "Screenshot of the wrong chat"
+    },
+    {
+      "id": "group-a074",
+      "text": "A petty reaction to everything"
+    },
+    {
+      "id": "group-a075",
+      "text": "A dramatic read receipt"
+    },
+    {
+      "id": "group-a076",
+      "text": "Message deleted too late"
+    },
+    {
+      "id": "group-a077",
+      "text": "An unsolicited horoscope"
+    },
+    {
+      "id": "group-a078",
+      "text": "A voice note recorded in a wind tunnel"
+    },
+    {
+      "id": "group-a079",
+      "text": "A group chat breakup speech"
+    },
+    {
+      "id": "group-a080",
+      "text": "Conspiracy theory about the brunch plan"
+    },
+    {
+      "id": "group-a081",
+      "text": "A photo nobody can explain"
+    },
+    {
+      "id": "group-a082",
+      "text": "A deeply personal overshare"
+    },
+    {
+      "id": "group-a083",
+      "text": "A gif war nobody won"
+    },
+    {
+      "id": "group-a084",
+      "text": "A cursed chain message"
+    },
+    {
+      "id": "group-a085",
+      "text": "'I'm outside' text from the wrong person"
+    },
+    {
+      "id": "group-a086",
+      "text": "A chaotic good morning message at noon"
+    },
+    {
+      "id": "group-a087",
+      "text": "A suspicious link from someone's aunt"
+    },
+    {
+      "id": "group-a088",
+      "text": "Group chat mutiny"
+    },
+    {
+      "id": "group-a089",
+      "text": "A passive-aggressive 'per my last message'"
+    },
+    {
+      "id": "group-a090",
+      "text": "12-minute rant about hummus"
+    },
+    {
+      "id": "group-a091",
+      "text": "A meme funeral"
+    },
+    {
+      "id": "group-a092",
+      "text": "A poorly timed selfie"
+    },
+    {
+      "id": "group-a093",
+      "text": "A wrong-number crisis"
+    },
+    {
+      "id": "group-a094",
+      "text": "A 'who's bringing what' meltdown"
+    },
+    {
+      "id": "group-a095",
+      "text": "Cursed inside joke that went too far"
+    },
+    {
+      "id": "group-a096",
+      "text": "A friendship-ending game night vote"
+    },
+    {
+      "id": "group-a097",
+      "text": "Screenshot folder called 'receipts'"
+    },
+    {
+      "id": "group-a098",
+      "text": "A chaotic voice note transcript"
+    },
+    {
+      "id": "group-a099",
+      "text": "A message meant for your therapist"
+    },
+    {
+      "id": "group-a100",
+      "text": "A very public digital meltdown"
+    },
+    {
+      "id": "group-a101",
+      "text": "📱"
+    },
+    {
+      "id": "group-a102",
+      "text": "💀"
+    },
+    {
+      "id": "group-a103",
+      "text": "🤡"
+    },
+    {
+      "id": "group-a104",
+      "text": "🫠"
+    },
+    {
+      "id": "group-a105",
+      "text": "📸"
+    },
+    {
+      "id": "group-a106",
+      "text": "🚩"
+    },
+    {
+      "id": "group-a107",
+      "text": "👀"
+    },
+    {
+      "id": "group-a108",
+      "text": "🤐"
+    },
+    {
+      "id": "group-a109",
+      "text": "🔥"
+    },
+    {
+      "id": "group-a110",
+      "text": "💬"
+    }
+  ]
+}

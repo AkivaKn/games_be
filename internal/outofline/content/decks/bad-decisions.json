@@ -1,0 +1,650 @@
+{
+  "id": "bad-decisions",
+  "name": "Bad Decisions",
+  "rating": "teen",
+  "description": "Chaotic choices, terrible judgement, and the morning after.",
+  "prompts": [
+    {
+      "id": "bad-p01",
+      "text": "At 2 a.m., I decided the answer was definitely ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p02",
+      "text": "The night got weird the moment someone suggested ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p03",
+      "text": "I woke up with a tattoo of ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p04",
+      "text": "The group chat will never recover from ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p05",
+      "text": "My worst impulse purchase was ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p06",
+      "text": "The police report politely described it as ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p07",
+      "text": "I should have said no, but instead I said yes to ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p08",
+      "text": "The road trip went off the rails because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p09",
+      "text": "The hangover was bad, but the memory of ___ was worse.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p10",
+      "text": "Nothing good has ever started with someone ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p11",
+      "text": "I tried to fix the problem with ___ and made it legendary.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p12",
+      "text": "The last thing I remember before chaos was ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p13",
+      "text": "My apology started with 'In my defence, there was ___.'",
+      "pick": 1
+    },
+    {
+      "id": "bad-p14",
+      "text": "The wedding after-party was ruined by ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p15",
+      "text": "I thought I was being mysterious, but I was just doing ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p16",
+      "text": "The Uber driver gave me one star because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p17",
+      "text": "We all agreed never to speak of ___ again.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p18",
+      "text": "The vacation photos are mostly evidence of ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p19",
+      "text": "I blamed it on the moon, but it was really ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p20",
+      "text": "The text I shouldn't have sent was about ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p21",
+      "text": "My confidence came entirely from ___ and poor judgement.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p22",
+      "text": "The worst combination is ___ and ___.",
+      "pick": 2
+    },
+    {
+      "id": "bad-p23",
+      "text": "The morning after, I found ___ in my pocket.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p24",
+      "text": "The party ended when someone brought out ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p25",
+      "text": "I tried to impress everyone with ___ and failed spectacularly.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p26",
+      "text": "The friendship survived everything except ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p27",
+      "text": "My villain origin story begins with me ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p28",
+      "text": "The worst advice I've ever followed was ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p29",
+      "text": "I looked at the situation and chose ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p30",
+      "text": "The emergency contact was called because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p31",
+      "text": "The bad idea jar is full because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p32",
+      "text": "I brought ___ to a situation that needed calm.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p33",
+      "text": "The night was 10% fun and 90% ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p34",
+      "text": "The group decision was between common sense and ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p35",
+      "text": "I can't go back there because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p36",
+      "text": "The worst thing to wake up next to is ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p37",
+      "text": "The dare escalated into ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p38",
+      "text": "My bank app still judges me for spending money on ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p39",
+      "text": "The story starts with tequila and ends with ___.",
+      "pick": 1
+    },
+    {
+      "id": "bad-p40",
+      "text": "I would do it again, except for ___.",
+      "pick": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": "bad-a001",
+      "text": "3 a.m. online shopping spree"
+    },
+    {
+      "id": "bad-a002",
+      "text": "A tattoo chosen from the flash wall of doom"
+    },
+    {
+      "id": "bad-a003",
+      "text": "An unearned sense of confidence"
+    },
+    {
+      "id": "bad-a004",
+      "text": "A text sent to the wrong ex"
+    },
+    {
+      "id": "bad-a005",
+      "text": "Shopping trolley race in a car park"
+    },
+    {
+      "id": "bad-a006",
+      "text": "A karaoke performance nobody survived"
+    },
+    {
+      "id": "bad-a007",
+      "text": "Flaming shot of regret"
+    },
+    {
+      "id": "bad-a008",
+      "text": "Mysterious bruise and no story"
+    },
+    {
+      "id": "bad-a009",
+      "text": "A drunk debate with a traffic cone"
+    },
+    {
+      "id": "bad-a010",
+      "text": "A very bad haircut decision"
+    },
+    {
+      "id": "bad-a011",
+      "text": "A group chat screenshot leak"
+    },
+    {
+      "id": "bad-a012",
+      "text": "Mysteriously acquired garden gnome"
+    },
+    {
+      "id": "bad-a013",
+      "text": "An apology video filmed too soon"
+    },
+    {
+      "id": "bad-a014",
+      "text": "Pair of handcuffs with missing keys"
+    },
+    {
+      "id": "bad-a015",
+      "text": "A night bus to the wrong city"
+    },
+    {
+      "id": "bad-a016",
+      "text": "A suspiciously cheap tattoo voucher"
+    },
+    {
+      "id": "bad-a017",
+      "text": "Dare that became a legend"
+    },
+    {
+      "id": "bad-a018",
+      "text": "A broken heel and broken dignity"
+    },
+    {
+      "id": "bad-a019",
+      "text": "A cocktail called 'Bad Life Choices'"
+    },
+    {
+      "id": "bad-a020",
+      "text": "Voice note that should be evidence"
+    },
+    {
+      "id": "bad-a021",
+      "text": "A dramatic jump into a shallow decision"
+    },
+    {
+      "id": "bad-a022",
+      "text": "A one-person conga line of shame"
+    },
+    {
+      "id": "bad-a023",
+      "text": "A lost shoe and a found enemy"
+    },
+    {
+      "id": "bad-a024",
+      "text": "A kebab at sunrise"
+    },
+    {
+      "id": "bad-a025",
+      "text": "Drunk promise to start a band"
+    },
+    {
+      "id": "bad-a026",
+      "text": "Very public confession at the worst possible time"
+    },
+    {
+      "id": "bad-a027",
+      "text": "Fake moustache and bad vibes"
+    },
+    {
+      "id": "bad-a028",
+      "text": "A wallet full of receipts and lies"
+    },
+    {
+      "id": "bad-a029",
+      "text": "A text that just said 'you up?' to your boss"
+    },
+    {
+      "id": "bad-a030",
+      "text": "A roulette wheel of bad ideas"
+    },
+    {
+      "id": "bad-a031",
+      "text": "Bathroom mirror pep talk"
+    },
+    {
+      "id": "bad-a032",
+      "text": "Hangover with emotional flashbacks"
+    },
+    {
+      "id": "bad-a033",
+      "text": "A plastic crown and zero authority"
+    },
+    {
+      "id": "bad-a034",
+      "text": "A dance floor injury"
+    },
+    {
+      "id": "bad-a035",
+      "text": "Terrible idea with great enthusiasm"
+    },
+    {
+      "id": "bad-a036",
+      "text": "A mysterious stamp on your hand"
+    },
+    {
+      "id": "bad-a037",
+      "text": "Bottle of confidence and no plan"
+    },
+    {
+      "id": "bad-a038",
+      "text": "A 4 a.m. argument about aliens"
+    },
+    {
+      "id": "bad-a039",
+      "text": "A cry in the club toilets"
+    },
+    {
+      "id": "bad-a040",
+      "text": "Friendship bracelet made of bad choices"
+    },
+    {
+      "id": "bad-a041",
+      "text": "A chaotic afterparty in a kitchen"
+    },
+    {
+      "id": "bad-a042",
+      "text": "A selfie with the wrong person"
+    },
+    {
+      "id": "bad-a043",
+      "text": "Parking ticket on your soul"
+    },
+    {
+      "id": "bad-a044",
+      "text": "A vow never to drink again (again)"
+    },
+    {
+      "id": "bad-a045",
+      "text": "Drunk purchase of a life-size cardboard cutout"
+    },
+    {
+      "id": "bad-a046",
+      "text": "Badly timed truth bomb"
+    },
+    {
+      "id": "bad-a047",
+      "text": "A pocket full of glitter and shame"
+    },
+    {
+      "id": "bad-a048",
+      "text": "A text draft you absolutely sent"
+    },
+    {
+      "id": "bad-a049",
+      "text": "Mysteriously acquired traffic cone named Gerald"
+    },
+    {
+      "id": "bad-a050",
+      "text": "Dramatic fall in slow motion"
+    },
+    {
+      "id": "bad-a051",
+      "text": "A hangover breakfast of regret"
+    },
+    {
+      "id": "bad-a052",
+      "text": "A random person's sunglasses"
+    },
+    {
+      "id": "bad-a053",
+      "text": "Bad decision with excellent lighting"
+    },
+    {
+      "id": "bad-a054",
+      "text": "A blurry photo of your downfall"
+    },
+    {
+      "id": "bad-a055",
+      "text": "'trust me' moment"
+    },
+    {
+      "id": "bad-a056",
+      "text": "Bottle service mistake"
+    },
+    {
+      "id": "bad-a057",
+      "text": "Cursed group selfie"
+    },
+    {
+      "id": "bad-a058",
+      "text": "A 2 a.m. fringe trim"
+    },
+    {
+      "id": "bad-a059",
+      "text": "Screaming match with a vending machine"
+    },
+    {
+      "id": "bad-a060",
+      "text": "Walk of shame in fancy shoes"
+    },
+    {
+      "id": "bad-a061",
+      "text": "Broken phone screen and broken promises"
+    },
+    {
+      "id": "bad-a062",
+      "text": "A drunk email to HR"
+    },
+    {
+      "id": "bad-a063",
+      "text": "Spontaneous piercing"
+    },
+    {
+      "id": "bad-a064",
+      "text": "A lost dignity deposit"
+    },
+    {
+      "id": "bad-a065",
+      "text": "A terrible toast at the worst time"
+    },
+    {
+      "id": "bad-a066",
+      "text": "Midnight swim in bad judgement"
+    },
+    {
+      "id": "bad-a067",
+      "text": "Karaoke duet with a stranger's uncle"
+    },
+    {
+      "id": "bad-a068",
+      "text": "A taxi ride of silent regret"
+    },
+    {
+      "id": "bad-a069",
+      "text": "Rogue sparkler"
+    },
+    {
+      "id": "bad-a070",
+      "text": "Fake accent that went too far"
+    },
+    {
+      "id": "bad-a071",
+      "text": "A dramatic confession to a plant"
+    },
+    {
+      "id": "bad-a072",
+      "text": "A hangover that feels personal"
+    },
+    {
+      "id": "bad-a073",
+      "text": "A souvenir you can't explain"
+    },
+    {
+      "id": "bad-a074",
+      "text": "A chaotic brunch debrief"
+    },
+    {
+      "id": "bad-a075",
+      "text": "A terrible plan written on a napkin"
+    },
+    {
+      "id": "bad-a076",
+      "text": "Missing eyebrow"
+    },
+    {
+      "id": "bad-a077",
+      "text": "Round of shots called 'Mistakes'"
+    },
+    {
+      "id": "bad-a078",
+      "text": "Cursed dance move"
+    },
+    {
+      "id": "bad-a079",
+      "text": "3 a.m. philosophy meltdown"
+    },
+    {
+      "id": "bad-a080",
+      "text": "A drunk text to your ex, your mum, and your dentist"
+    },
+    {
+      "id": "bad-a081",
+      "text": "A regret-flavoured vape cloud"
+    },
+    {
+      "id": "bad-a082",
+      "text": "A mysterious charge on your card"
+    },
+    {
+      "id": "bad-a083",
+      "text": "A lost jacket and found trauma"
+    },
+    {
+      "id": "bad-a084",
+      "text": "Bad idea in neon lights"
+    },
+    {
+      "id": "bad-a085",
+      "text": "Very confident wrong answer"
+    },
+    {
+      "id": "bad-a086",
+      "text": "Chaotic exit through the fire door"
+    },
+    {
+      "id": "bad-a087",
+      "text": "A spilled drink on your last nerve"
+    },
+    {
+      "id": "bad-a088",
+      "text": "Daring leap into consequences"
+    },
+    {
+      "id": "bad-a089",
+      "text": "Morning-after apology tour"
+    },
+    {
+      "id": "bad-a090",
+      "text": "Friendship held together by secrets"
+    },
+    {
+      "id": "bad-a091",
+      "text": "Dramatic retelling that gets worse each time"
+    },
+    {
+      "id": "bad-a092",
+      "text": "Tiny hat and huge regrets"
+    },
+    {
+      "id": "bad-a093",
+      "text": "Voicemail you can never un-hear"
+    },
+    {
+      "id": "bad-a094",
+      "text": "A blurry memory with sharp consequences"
+    },
+    {
+      "id": "bad-a095",
+      "text": "Cursed Polaroid"
+    },
+    {
+      "id": "bad-a096",
+      "text": "A 'what happens here stays here' lie"
+    },
+    {
+      "id": "bad-a097",
+      "text": "A badly judged cartwheel"
+    },
+    {
+      "id": "bad-a098",
+      "text": "Shot glass full of poor planning"
+    },
+    {
+      "id": "bad-a099",
+      "text": "A final boss hangover"
+    },
+    {
+      "id": "bad-a100",
+      "text": "A legendary bad decision"
+    },
+    {
+      "id": "bad-a101",
+      "text": "🍺"
+    },
+    {
+      "id": "bad-a102",
+      "text": "💀"
+    },
+    {
+      "id": "bad-a103",
+      "text": "🤡"
+    },
+    {
+      "id": "bad-a104",
+      "text": "🚩"
+    },
+    {
+      "id": "bad-a105",
+      "text": "🫠"
+    },
+    {
+      "id": "bad-a106",
+      "text": "🔥"
+    },
+    {
+      "id": "bad-a107",
+      "text": "🤮"
+    },
+    {
+      "id": "bad-a108",
+      "text": "📉"
+    },
+    {
+      "id": "bad-a109",
+      "text": "🕳️"
+    },
+    {
+      "id": "bad-a110",
+      "text": "👀"
+    }
+  ]
+}

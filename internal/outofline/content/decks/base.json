@@ -1,0 +1,1750 @@
+{
+  "id": "base",
+  "name": "House Deck",
+  "description": "The all-purpose starter deck. Absurd, social, and only mildly incriminating.",
+  "rating": "teen",
+  "prompts": [
+    {
+      "id": "base-p01",
+      "text": "The worst thing to find in a hotel room is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p02",
+      "text": "Nobody expected the office party to end with ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p03",
+      "text": "The secret ingredient in Grandma's famous casserole is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p04",
+      "text": "My therapist says I should probably stop ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p05",
+      "text": "The new corporate wellness program is basically just ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p06",
+      "text": "I cannot believe the wedding planner budgeted four thousand pounds for ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p07",
+      "text": "The reason the group chat went silent for three hours is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p08",
+      "text": "The new startup combines ___ with ___.",
+      "pick": 2
+    },
+    {
+      "id": "base-p09",
+      "text": "The worst possible thing to say during a job interview is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p10",
+      "text": "My dating profile says I'm weirdly into ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p11",
+      "text": "The airline has apologised for the inconvenience caused by ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p12",
+      "text": "The museum's newest exhibit is simply ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p13",
+      "text": "The last thing you want to hear from your mechanic is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p14",
+      "text": "The school board has banned ___ from the canteen.",
+      "pick": 1
+    },
+    {
+      "id": "base-p15",
+      "text": "The family holiday went downhill the moment we discovered ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p16",
+      "text": "For my birthday, I would like ___ and ___.",
+      "pick": 2
+    },
+    {
+      "id": "base-p17",
+      "text": "The only thing getting me through this Monday is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p18",
+      "text": "The neighbourhood watch meeting was derailed by ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p19",
+      "text": "The new reality show is just eight strangers sharing a house with ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p20",
+      "text": "The pharmacist was not prepared for ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p21",
+      "text": "My landlord's solution to the damp problem was ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p22",
+      "text": "The perfect surprise party involves ___ and ___.",
+      "pick": 2
+    },
+    {
+      "id": "base-p23",
+      "text": "The most awkward item to bring to a potluck is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p24",
+      "text": "The gym's new class combines cardio with ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p25",
+      "text": "The royal family has finally addressed rumours about ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p26",
+      "text": "The office printer is always broken because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p27",
+      "text": "The worst holiday package includes ___ and ___.",
+      "pick": 2
+    },
+    {
+      "id": "base-p28",
+      "text": "The theme for this year's office party is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p29",
+      "text": "I knew the blind date was over when they ordered ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p30",
+      "text": "The documentary was supposed to be about nature, but mostly featured ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p31",
+      "text": "The secret to a long and happy marriage is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p32",
+      "text": "The worst thing to hear while stuck in a lift is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p33",
+      "text": "The school play was ruined by ___ and ___.",
+      "pick": 2
+    },
+    {
+      "id": "base-p34",
+      "text": "The new fitness influencer insists that everyone needs ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p35",
+      "text": "The reason I was late this morning is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p36",
+      "text": "The most cursed thing in my search history is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p37",
+      "text": "The self-checkout machine has started demanding ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p38",
+      "text": "The group holiday itinerary includes three hours of ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p39",
+      "text": "The new restaurant's signature dish is ___ served on a bed of ___.",
+      "pick": 2
+    },
+    {
+      "id": "base-p40",
+      "text": "The most disappointing thing to find at the bottom of a bag is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p41",
+      "text": "The bank's new savings account rewards you with ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p42",
+      "text": "The final boss of adulthood is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p43",
+      "text": "The worst gift to receive from a secret Santa is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p44",
+      "text": "The company's rebrand replaced ___ with ___.",
+      "pick": 2
+    },
+    {
+      "id": "base-p45",
+      "text": "The reason the neighbours called the council was ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p46",
+      "text": "My smart speaker keeps ordering ___ without permission.",
+      "pick": 1
+    },
+    {
+      "id": "base-p47",
+      "text": "The new manager's first act was to replace the coffee machine with ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p48",
+      "text": "The airport security tray contained ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p49",
+      "text": "The group chat has two settings: ___ and ___.",
+      "pick": 2
+    },
+    {
+      "id": "base-p50",
+      "text": "The only thing standing between me and a good night's sleep is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p51",
+      "text": "The family group photo was ruined by ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p52",
+      "text": "My new personality is just ___ with anxiety.",
+      "pick": 1
+    },
+    {
+      "id": "base-p53",
+      "text": "The wizard council has banned ___ for being too powerful.",
+      "pick": 1
+    },
+    {
+      "id": "base-p54",
+      "text": "The only thing in my emergency kit is ___ and regret.",
+      "pick": 1
+    },
+    {
+      "id": "base-p55",
+      "text": "The town meeting ended abruptly because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p56",
+      "text": "The worst thing to bring to a first aid course is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p57",
+      "text": "My five-year plan is mostly ___ and denial.",
+      "pick": 1
+    },
+    {
+      "id": "base-p58",
+      "text": "The haunted house was scary, but not as scary as ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p59",
+      "text": "The new superhero's only weakness is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p60",
+      "text": "The fortune teller took one look at my palm and said ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p61",
+      "text": "The wedding vows got awkward after someone mentioned ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p62",
+      "text": "The petting zoo was shut down after ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p63",
+      "text": "My legacy will be ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p64",
+      "text": "The worst possible name for a yacht is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p65",
+      "text": "The cooking show was cancelled because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p66",
+      "text": "I brought ___ to the argument, and I stand by it.",
+      "pick": 1
+    },
+    {
+      "id": "base-p67",
+      "text": "The museum audio guide kept whispering about ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p68",
+      "text": "The retirement home talent show featured ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p69",
+      "text": "The new fragrance smells like ___ and bad decisions.",
+      "pick": 1
+    },
+    {
+      "id": "base-p70",
+      "text": "The camping trip became a survival story because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p71",
+      "text": "The children's book was pulled from shelves for mentioning ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p72",
+      "text": "The motivational speaker made everyone cry with ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p73",
+      "text": "The worst thing to find under your bed is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p74",
+      "text": "The road trip playlist was just three hours of ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p75",
+      "text": "The dating show eliminated me for ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p76",
+      "text": "I asked the universe for a sign and got ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p77",
+      "text": "The new board game is basically Monopoly but with ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p78",
+      "text": "The neighbourhood barbecue got weird when someone brought ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p79",
+      "text": "The funeral director tried to lighten the mood with ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p80",
+      "text": "The pirate captain's treasure map led to ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p81",
+      "text": "My autobiography will be titled ___: A Warning.",
+      "pick": 1
+    },
+    {
+      "id": "base-p82",
+      "text": "The worst thing to hear through a baby monitor is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p83",
+      "text": "The science fair project accidentally created ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p84",
+      "text": "The new law makes it illegal to ___ in public.",
+      "pick": 1
+    },
+    {
+      "id": "base-p85",
+      "text": "The spa weekend was ruined by ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p86",
+      "text": "The magician pulled ___ out of the hat instead of a rabbit.",
+      "pick": 1
+    },
+    {
+      "id": "base-p87",
+      "text": "The worst excuse for missing a wedding is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p88",
+      "text": "The town mascot was quietly replaced with ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p89",
+      "text": "The support group was for people affected by ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p90",
+      "text": "The escape room became real when we found ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p91",
+      "text": "My brain at 3 a.m. is just ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p92",
+      "text": "The birthday clown was clearly going through ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p93",
+      "text": "The worst thing to inherit from a relative is ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p94",
+      "text": "The theme park's new ride is called ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p95",
+      "text": "I tried to be mysterious, but I just looked like ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p96",
+      "text": "The courtroom gasped when the evidence turned out to be ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p97",
+      "text": "The new roommate agreement bans ___ after midnight.",
+      "pick": 1
+    },
+    {
+      "id": "base-p98",
+      "text": "The garden gnome is hiding ___.",
+      "pick": 1
+    },
+    {
+      "id": "base-p99",
+      "text": "The time capsule from 1998 contained ___ and a warning.",
+      "pick": 1
+    },
+    {
+      "id": "base-p100",
+      "text": "The worst thing to yell during a quiet meditation is ___.",
+      "pick": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": "base-a001",
+      "text": "A suspiciously warm seat"
+    },
+    {
+      "id": "base-a002",
+      "text": "An unpaid internship"
+    },
+    {
+      "id": "base-a003",
+      "text": "A passive-aggressive group chat"
+    },
+    {
+      "id": "base-a004",
+      "text": "Last slice of pizza"
+    },
+    {
+      "id": "base-a005",
+      "text": "A minor accounting error"
+    },
+    {
+      "id": "base-a006",
+      "text": "Haunted vending machine"
+    },
+    {
+      "id": "base-a007",
+      "text": "Mysterious stain"
+    },
+    {
+      "id": "base-a008",
+      "text": "Emotional support water bottle"
+    },
+    {
+      "id": "base-a009",
+      "text": "PowerPoint with too many fonts"
+    },
+    {
+      "id": "base-a010",
+      "text": "The smell of a new phone"
+    },
+    {
+      "id": "base-a011",
+      "text": "Landlord's promise"
+    },
+    {
+      "id": "base-a012",
+      "text": "A subscription I forgot to cancel"
+    },
+    {
+      "id": "base-a013",
+      "text": "A single tear from the IT guy"
+    },
+    {
+      "id": "base-a014",
+      "text": "Wedding speech gone rogue"
+    },
+    {
+      "id": "base-a015",
+      "text": "The neighbour's trampoline"
+    },
+    {
+      "id": "base-a016",
+      "text": "A very confident pigeon"
+    },
+    {
+      "id": "base-a017",
+      "text": "An unnecessary meeting"
+    },
+    {
+      "id": "base-a018",
+      "text": "A cursed family recipe"
+    },
+    {
+      "id": "base-a019",
+      "text": "Wardrobe that opens to nowhere"
+    },
+    {
+      "id": "base-a020",
+      "text": "Office microwave"
+    },
+    {
+      "id": "base-a021",
+      "text": "A motivational poster"
+    },
+    {
+      "id": "base-a022",
+      "text": "An alarm set for five in the morning"
+    },
+    {
+      "id": "base-a023",
+      "text": "A lifetime supply of lukewarm coffee"
+    },
+    {
+      "id": "base-a024",
+      "text": "The intern's revenge"
+    },
+    {
+      "id": "base-a025",
+      "text": "Tax loophole"
+    },
+    {
+      "id": "base-a026",
+      "text": "A surprisingly aggressive squirrel"
+    },
+    {
+      "id": "base-a027",
+      "text": "A deeply personal Spotify playlist"
+    },
+    {
+      "id": "base-a028",
+      "text": "The last remaining brain cell"
+    },
+    {
+      "id": "base-a029",
+      "text": "Haunted Roomba"
+    },
+    {
+      "id": "base-a030",
+      "text": "An unpaid parking ticket"
+    },
+    {
+      "id": "base-a031",
+      "text": "Group project with one overachiever"
+    },
+    {
+      "id": "base-a032",
+      "text": "Wrong kind of glitter"
+    },
+    {
+      "id": "base-a033",
+      "text": "A suspiciously cheap holiday"
+    },
+    {
+      "id": "base-a034",
+      "text": "A motivational quote from a cereal box"
+    },
+    {
+      "id": "base-a035",
+      "text": "Accidental voice note"
+    },
+    {
+      "id": "base-a036",
+      "text": "Birthday card from the bank"
+    },
+    {
+      "id": "base-a037",
+      "text": "A truly cursed casserole"
+    },
+    {
+      "id": "base-a038",
+      "text": "World's smallest violin"
+    },
+    {
+      "id": "base-a039",
+      "text": "A fake plant with real feelings"
+    },
+    {
+      "id": "base-a040",
+      "text": "An aggressively wholesome influencer"
+    },
+    {
+      "id": "base-a041",
+      "text": "Receipt from 2014"
+    },
+    {
+      "id": "base-a042",
+      "text": "The bottom of the laundry basket"
+    },
+    {
+      "id": "base-a043",
+      "text": "A surprise plus-one"
+    },
+    {
+      "id": "base-a044",
+      "text": "A corporate apology video"
+    },
+    {
+      "id": "base-a045",
+      "text": "Emergency snack"
+    },
+    {
+      "id": "base-a046",
+      "text": "A self-help book with no pages"
+    },
+    {
+      "id": "base-a047",
+      "text": "Very slow escalator"
+    },
+    {
+      "id": "base-a048",
+      "text": "Last biscuit"
+    },
+    {
+      "id": "base-a049",
+      "text": "A dramatic reading of the terms and conditions"
+    },
+    {
+      "id": "base-a050",
+      "text": "Unpaid emotional labour invoice"
+    },
+    {
+      "id": "base-a051",
+      "text": "Suspiciously smooth dance move"
+    },
+    {
+      "id": "base-a052",
+      "text": "A cursed NFT"
+    },
+    {
+      "id": "base-a053",
+      "text": "Group's shared Netflix password"
+    },
+    {
+      "id": "base-a054",
+      "text": "A motivational gym mirror"
+    },
+    {
+      "id": "base-a055",
+      "text": "An accidental group text"
+    },
+    {
+      "id": "base-a056",
+      "text": "A tiny horse in a waistcoat"
+    },
+    {
+      "id": "base-a057",
+      "text": "Very public breakup"
+    },
+    {
+      "id": "base-a058",
+      "text": "Office fridge at four in the afternoon"
+    },
+    {
+      "id": "base-a059",
+      "text": "Surprisingly good bad idea"
+    },
+    {
+      "id": "base-a060",
+      "text": "A mysterious key"
+    },
+    {
+      "id": "base-a061",
+      "text": "A career in middle management"
+    },
+    {
+      "id": "base-a062",
+      "text": "The family WhatsApp group"
+    },
+    {
+      "id": "base-a063",
+      "text": "Disappointing fortune cookie"
+    },
+    {
+      "id": "base-a064",
+      "text": "One-star review"
+    },
+    {
+      "id": "base-a065",
+      "text": "An aggressively beige hotel room"
+    },
+    {
+      "id": "base-a066",
+      "text": "A silent disco in a library"
+    },
+    {
+      "id": "base-a067",
+      "text": "The wrong twin"
+    },
+    {
+      "id": "base-a068",
+      "text": "A suspiciously specific prophecy"
+    },
+    {
+      "id": "base-a069",
+      "text": "A deeply unhelpful search result"
+    },
+    {
+      "id": "base-a070",
+      "text": "Dramatic exit"
+    },
+    {
+      "id": "base-a071",
+      "text": "A very small inconvenience"
+    },
+    {
+      "id": "base-a072",
+      "text": "Last piece of office birthday cake"
+    },
+    {
+      "id": "base-a073",
+      "text": "A dramatically overqualified therapist"
+    },
+    {
+      "id": "base-a074",
+      "text": "A surprise audit"
+    },
+    {
+      "id": "base-a075",
+      "text": "Cursed souvenir"
+    },
+    {
+      "id": "base-a076",
+      "text": "World's most awkward hug"
+    },
+    {
+      "id": "base-a077",
+      "text": "Beautiful but useless spreadsheet"
+    },
+    {
+      "id": "base-a078",
+      "text": "A motivational mug"
+    },
+    {
+      "id": "base-a079",
+      "text": "Emergency cheese board"
+    },
+    {
+      "id": "base-a080",
+      "text": "A very serious hobby"
+    },
+    {
+      "id": "base-a081",
+      "text": "The wrong group chat"
+    },
+    {
+      "id": "base-a082",
+      "text": "Questionable life choice"
+    },
+    {
+      "id": "base-a083",
+      "text": "A fake ID for a library card"
+    },
+    {
+      "id": "base-a084",
+      "text": "Dramatic chipmunk"
+    },
+    {
+      "id": "base-a085",
+      "text": "The last brain cell on holiday"
+    },
+    {
+      "id": "base-a086",
+      "text": "A suspiciously affordable wedding"
+    },
+    {
+      "id": "base-a087",
+      "text": "An apology written by AI"
+    },
+    {
+      "id": "base-a088",
+      "text": "Mystery meat sandwich"
+    },
+    {
+      "id": "base-a089",
+      "text": "Very persistent ex"
+    },
+    {
+      "id": "base-a090",
+      "text": "Uninvited plus-one"
+    },
+    {
+      "id": "base-a091",
+      "text": "Surprisingly competitive board game"
+    },
+    {
+      "id": "base-a092",
+      "text": "The neighbour's unexplained ladder"
+    },
+    {
+      "id": "base-a093",
+      "text": "A deeply awkward silence"
+    },
+    {
+      "id": "base-a094",
+      "text": "Cursed group photo"
+    },
+    {
+      "id": "base-a095",
+      "text": "A very expensive mistake"
+    },
+    {
+      "id": "base-a096",
+      "text": "The office plants after a long weekend"
+    },
+    {
+      "id": "base-a097",
+      "text": "Motivational billboard"
+    },
+    {
+      "id": "base-a098",
+      "text": "Suspiciously large pigeon"
+    },
+    {
+      "id": "base-a099",
+      "text": "Tiny violin solo"
+    },
+    {
+      "id": "base-a100",
+      "text": "An unpaid bet"
+    },
+    {
+      "id": "base-a101",
+      "text": "A very confident toddler"
+    },
+    {
+      "id": "base-a102",
+      "text": "The wrong kind of cheese"
+    },
+    {
+      "id": "base-a103",
+      "text": "A cursed online quiz"
+    },
+    {
+      "id": "base-a104",
+      "text": "A surprisingly emotional football match"
+    },
+    {
+      "id": "base-a105",
+      "text": "Last clean mug"
+    },
+    {
+      "id": "base-a106",
+      "text": "Deeply unromantic proposal"
+    },
+    {
+      "id": "base-a107",
+      "text": "Very public sneeze"
+    },
+    {
+      "id": "base-a108",
+      "text": "An accidental subscription to a cheese club"
+    },
+    {
+      "id": "base-a109",
+      "text": "The world's least relaxing spa"
+    },
+    {
+      "id": "base-a110",
+      "text": "A suspiciously friendly stranger"
+    },
+    {
+      "id": "base-a111",
+      "text": "A minor celebrity"
+    },
+    {
+      "id": "base-a112",
+      "text": "Very dramatic weather forecast"
+    },
+    {
+      "id": "base-a113",
+      "text": "Wrong kind of enthusiasm"
+    },
+    {
+      "id": "base-a114",
+      "text": "Cursed office chair"
+    },
+    {
+      "id": "base-a115",
+      "text": "An unpaid internship in the arts"
+    },
+    {
+      "id": "base-a116",
+      "text": "A surprisingly aggressive plant"
+    },
+    {
+      "id": "base-a117",
+      "text": "Last slice of cake"
+    },
+    {
+      "id": "base-a118",
+      "text": "A deeply questionable haircut"
+    },
+    {
+      "id": "base-a119",
+      "text": "Emergency group hug"
+    },
+    {
+      "id": "base-a120",
+      "text": "A very slow chase scene"
+    },
+    {
+      "id": "base-a121",
+      "text": "A suspiciously warm swimming pool"
+    },
+    {
+      "id": "base-a122",
+      "text": "A deeply personal karaoke choice"
+    },
+    {
+      "id": "base-a123",
+      "text": "The last parking space"
+    },
+    {
+      "id": "base-a124",
+      "text": "A cursed birthday cake"
+    },
+    {
+      "id": "base-a125",
+      "text": "Very confident life coach"
+    },
+    {
+      "id": "base-a126",
+      "text": "A very serious hat"
+    },
+    {
+      "id": "base-a127",
+      "text": "Wrong kind of silence"
+    },
+    {
+      "id": "base-a128",
+      "text": "A surprisingly fast tortoise"
+    },
+    {
+      "id": "base-a129",
+      "text": "An accidental proposal"
+    },
+    {
+      "id": "base-a130",
+      "text": "The office's only stapler"
+    },
+    {
+      "id": "base-a131",
+      "text": "A deeply awkward family photo"
+    },
+    {
+      "id": "base-a132",
+      "text": "Suspiciously cheap flight"
+    },
+    {
+      "id": "base-a133",
+      "text": "The last remaining slice of honesty"
+    },
+    {
+      "id": "base-a134",
+      "text": "Motivational fridge magnet"
+    },
+    {
+      "id": "base-a135",
+      "text": "An unpaid tab"
+    },
+    {
+      "id": "base-a136",
+      "text": "A very dramatic houseplant"
+    },
+    {
+      "id": "base-a137",
+      "text": "Wrong kind of cake"
+    },
+    {
+      "id": "base-a138",
+      "text": "A surprisingly emotional robot"
+    },
+    {
+      "id": "base-a139",
+      "text": "A cursed wedding favour"
+    },
+    {
+      "id": "base-a140",
+      "text": "Group's least favourite member"
+    },
+    {
+      "id": "base-a141",
+      "text": "A very small rebellion"
+    },
+    {
+      "id": "base-a142",
+      "text": "Accidental holiday romance"
+    },
+    {
+      "id": "base-a143",
+      "text": "Last clean towel"
+    },
+    {
+      "id": "base-a144",
+      "text": "Suspiciously competent intern"
+    },
+    {
+      "id": "base-a145",
+      "text": "Deeply unhelpful fortune"
+    },
+    {
+      "id": "base-a146",
+      "text": "A very public wardrobe malfunction"
+    },
+    {
+      "id": "base-a147",
+      "text": "The wrong number of candles"
+    },
+    {
+      "id": "base-a148",
+      "text": "Surprisingly good excuse"
+    },
+    {
+      "id": "base-a149",
+      "text": "An emergency nap"
+    },
+    {
+      "id": "base-a150",
+      "text": "Deeply questionable group costume"
+    },
+    {
+      "id": "base-a151",
+      "text": "A haunted air fryer"
+    },
+    {
+      "id": "base-a152",
+      "text": "A passive-aggressive seance"
+    },
+    {
+      "id": "base-a153",
+      "text": "A midlife crisis in cargo shorts"
+    },
+    {
+      "id": "base-a154",
+      "text": "Emotional damage deposit"
+    },
+    {
+      "id": "base-a155",
+      "text": "A feral raccoon with a business plan"
+    },
+    {
+      "id": "base-a156",
+      "text": "Funeral playlist with bass drops"
+    },
+    {
+      "id": "base-a157",
+      "text": "A suspiciously damp handshake"
+    },
+    {
+      "id": "base-a158",
+      "text": "Apology cake with typos"
+    },
+    {
+      "id": "base-a159",
+      "text": "Cursed scented candle"
+    },
+    {
+      "id": "base-a160",
+      "text": "Clown's tax returns"
+    },
+    {
+      "id": "base-a161",
+      "text": "The wrong kind of crystals"
+    },
+    {
+      "id": "base-a162",
+      "text": "Motivational scream"
+    },
+    {
+      "id": "base-a163",
+      "text": "A slightly used ouija board"
+    },
+    {
+      "id": "base-a164",
+      "text": "A family secret in a casserole dish"
+    },
+    {
+      "id": "base-a165",
+      "text": "Raccoon in formal wear"
+    },
+    {
+      "id": "base-a166",
+      "text": "An existential crisis at brunch"
+    },
+    {
+      "id": "base-a167",
+      "text": "Badly timed conga line"
+    },
+    {
+      "id": "base-a168",
+      "text": "A haunted garden gnome"
+    },
+    {
+      "id": "base-a169",
+      "text": "Very personal fortune cookie"
+    },
+    {
+      "id": "base-a170",
+      "text": "A panic attack in a ball pit"
+    },
+    {
+      "id": "base-a171",
+      "text": "The ghost of bad decisions past"
+    },
+    {
+      "id": "base-a172",
+      "text": "A glitter bomb from an ex"
+    },
+    {
+      "id": "base-a173",
+      "text": "A suspiciously cheerful undertaker"
+    },
+    {
+      "id": "base-a174",
+      "text": "A kazoo solo at a funeral"
+    },
+    {
+      "id": "base-a175",
+      "text": "Poorly trained emotional support peacock"
+    },
+    {
+      "id": "base-a176",
+      "text": "Cursed friendship bracelet"
+    },
+    {
+      "id": "base-a177",
+      "text": "A dramatic reading of old text messages"
+    },
+    {
+      "id": "base-a178",
+      "text": "Surprisingly aggressive swan"
+    },
+    {
+      "id": "base-a179",
+      "text": "Passive-aggressive pot plant"
+    },
+    {
+      "id": "base-a180",
+      "text": "An unhinged bedtime story"
+    },
+    {
+      "id": "base-a181",
+      "text": "A taxidermy rat in a tiny hat"
+    },
+    {
+      "id": "base-a182",
+      "text": "Bucket of lukewarm regrets"
+    },
+    {
+      "id": "base-a183",
+      "text": "Mysterious jar labelled 'do not open'"
+    },
+    {
+      "id": "base-a184",
+      "text": "Horoscope that got too specific"
+    },
+    {
+      "id": "base-a185",
+      "text": "Karaoke machine possessed by chaos"
+    },
+    {
+      "id": "base-a186",
+      "text": "Deflating bouncy castle"
+    },
+    {
+      "id": "base-a187",
+      "text": "Deeply cursed puppet"
+    },
+    {
+      "id": "base-a188",
+      "text": "Family feud over a spoon"
+    },
+    {
+      "id": "base-a189",
+      "text": "A suspicious meat raffle"
+    },
+    {
+      "id": "base-a190",
+      "text": "A naked mole rat with attitude"
+    },
+    {
+      "id": "base-a191",
+      "text": "A voicemail from your future self"
+    },
+    {
+      "id": "base-a192",
+      "text": "A wet sock on the soul"
+    },
+    {
+      "id": "base-a193",
+      "text": "Jar of someone's wisdom teeth"
+    },
+    {
+      "id": "base-a194",
+      "text": "A goat in therapy"
+    },
+    {
+      "id": "base-a195",
+      "text": "Very judgmental cat"
+    },
+    {
+      "id": "base-a196",
+      "text": "Shrine to a mediocre ex"
+    },
+    {
+      "id": "base-a197",
+      "text": "Broken smoke alarm chirping forever"
+    },
+    {
+      "id": "base-a198",
+      "text": "A cursed timeshare presentation"
+    },
+    {
+      "id": "base-a199",
+      "text": "A polite but firm haunting"
+    },
+    {
+      "id": "base-a200",
+      "text": "A disastrous pottery class"
+    },
+    {
+      "id": "base-a201",
+      "text": "Rogue accordion"
+    },
+    {
+      "id": "base-a202",
+      "text": "Bottle of expired confidence"
+    },
+    {
+      "id": "base-a203",
+      "text": "A pigeon with a gambling problem"
+    },
+    {
+      "id": "base-a204",
+      "text": "A deeply unnecessary fog machine"
+    },
+    {
+      "id": "base-a205",
+      "text": "A cursed bumper sticker"
+    },
+    {
+      "id": "base-a206",
+      "text": "Dramatic fainting goat"
+    },
+    {
+      "id": "base-a207",
+      "text": "Suspiciously sticky handshake"
+    },
+    {
+      "id": "base-a208",
+      "text": "A haunted voicemail"
+    },
+    {
+      "id": "base-a209",
+      "text": "A portable fog of despair"
+    },
+    {
+      "id": "base-a210",
+      "text": "Feral toddler with a marker"
+    },
+    {
+      "id": "base-a211",
+      "text": "A mystery casserole from 2009"
+    },
+    {
+      "id": "base-a212",
+      "text": "A cursed lawn flamingo"
+    },
+    {
+      "id": "base-a213",
+      "text": "A very loud existential dread"
+    },
+    {
+      "id": "base-a214",
+      "text": "Badly behaved ventriloquist dummy"
+    },
+    {
+      "id": "base-a215",
+      "text": "Tragic DIY haircut"
+    },
+    {
+      "id": "base-a216",
+      "text": "Packet of suspicious powder (it was gravy)"
+    },
+    {
+      "id": "base-a217",
+      "text": "Mournful trombone"
+    },
+    {
+      "id": "base-a218",
+      "text": "A deeply awkward slow dance"
+    },
+    {
+      "id": "base-a219",
+      "text": "A goose with unresolved anger"
+    },
+    {
+      "id": "base-a220",
+      "text": "Haunted selfie stick"
+    },
+    {
+      "id": "base-a221",
+      "text": "Skeleton in Crocs"
+    },
+    {
+      "id": "base-a222",
+      "text": "A secret second family of ducks"
+    },
+    {
+      "id": "base-a223",
+      "text": "Cursed scented lotion"
+    },
+    {
+      "id": "base-a224",
+      "text": "A flaming cheese wheel"
+    },
+    {
+      "id": "base-a225",
+      "text": "A passive-aggressive banner"
+    },
+    {
+      "id": "base-a226",
+      "text": "Very personal curse"
+    },
+    {
+      "id": "base-a227",
+      "text": "A haunted parking ticket"
+    },
+    {
+      "id": "base-a228",
+      "text": "Suspiciously heavy backpack"
+    },
+    {
+      "id": "base-a229",
+      "text": "A clown car full of regrets"
+    },
+    {
+      "id": "base-a230",
+      "text": "A badly timed fart in a spacesuit"
+    },
+    {
+      "id": "base-a231",
+      "text": "Feral birthday piñata"
+    },
+    {
+      "id": "base-a232",
+      "text": "Cursed motivational speech"
+    },
+    {
+      "id": "base-a233",
+      "text": "Sentient pile of laundry"
+    },
+    {
+      "id": "base-a234",
+      "text": "A dramatic raccoon stare-down"
+    },
+    {
+      "id": "base-a235",
+      "text": "A small but mighty grudge"
+    },
+    {
+      "id": "base-a236",
+      "text": "Haunted karaoke duet"
+    },
+    {
+      "id": "base-a237",
+      "text": "Very ambitious seagull"
+    },
+    {
+      "id": "base-a238",
+      "text": "A coffin-shaped charcuterie board"
+    },
+    {
+      "id": "base-a239",
+      "text": "A cursed family heirloom"
+    },
+    {
+      "id": "base-a240",
+      "text": "A sinister chuckle from the attic"
+    },
+    {
+      "id": "base-a241",
+      "text": "A deeply uncomfortable hug"
+    },
+    {
+      "id": "base-a242",
+      "text": "A badly drawn tattoo of your own face"
+    },
+    {
+      "id": "base-a243",
+      "text": "A screaming houseplant"
+    },
+    {
+      "id": "base-a244",
+      "text": "A suspiciously damp basement"
+    },
+    {
+      "id": "base-a245",
+      "text": "A rogue Roomba with a knife taped to it"
+    },
+    {
+      "id": "base-a246",
+      "text": "A jar of pickled bad vibes"
+    },
+    {
+      "id": "base-a247",
+      "text": "A haunted shopping trolley"
+    },
+    {
+      "id": "base-a248",
+      "text": "A passive-aggressive fruit basket"
+    },
+    {
+      "id": "base-a249",
+      "text": "A wedding DJ playing funeral music"
+    },
+    {
+      "id": "base-a250",
+      "text": "A cursed snow globe"
+    },
+    {
+      "id": "base-a251",
+      "text": "A goose in a courtroom"
+    },
+    {
+      "id": "base-a252",
+      "text": "A very specific phobia"
+    },
+    {
+      "id": "base-a253",
+      "text": "A dramatic exit through the wrong door"
+    },
+    {
+      "id": "base-a254",
+      "text": "Suspiciously quiet child"
+    },
+    {
+      "id": "base-a255",
+      "text": "Haunted mullet"
+    },
+    {
+      "id": "base-a256",
+      "text": "A bottle of tears from HR"
+    },
+    {
+      "id": "base-a257",
+      "text": "A feral mall Santa"
+    },
+    {
+      "id": "base-a258",
+      "text": "A cursed jigsaw puzzle with one missing piece"
+    },
+    {
+      "id": "base-a259",
+      "text": "A deeply personal insult from a parrot"
+    },
+    {
+      "id": "base-a260",
+      "text": "Questionable meat pie"
+    },
+    {
+      "id": "base-a261",
+      "text": "Spooky spreadsheet"
+    },
+    {
+      "id": "base-a262",
+      "text": "Very aggressive meditation app"
+    },
+    {
+      "id": "base-a263",
+      "text": "Cursed pair of Crocs"
+    },
+    {
+      "id": "base-a264",
+      "text": "Tiny haunted violin case"
+    },
+    {
+      "id": "base-a265",
+      "text": "A suspiciously warm handshake from a clown"
+    },
+    {
+      "id": "base-a266",
+      "text": "Disastrous trust fall"
+    },
+    {
+      "id": "base-a267",
+      "text": "Possessed printer"
+    },
+    {
+      "id": "base-a268",
+      "text": "A funeral for your dignity"
+    },
+    {
+      "id": "base-a269",
+      "text": "A raccoon stealing your identity"
+    },
+    {
+      "id": "base-a270",
+      "text": "Haunted wig"
+    },
+    {
+      "id": "base-a271",
+      "text": "Deeply cursed group hug"
+    },
+    {
+      "id": "base-a272",
+      "text": "A very loud silence"
+    },
+    {
+      "id": "base-a273",
+      "text": "Chicken with a lawyer"
+    },
+    {
+      "id": "base-a274",
+      "text": "Cursed coupon book"
+    },
+    {
+      "id": "base-a275",
+      "text": "Dramatic seance gone wrong"
+    },
+    {
+      "id": "base-a276",
+      "text": "A wet handshake from destiny"
+    },
+    {
+      "id": "base-a277",
+      "text": "A sinister garden shed"
+    },
+    {
+      "id": "base-a278",
+      "text": "A badly timed confession"
+    },
+    {
+      "id": "base-a279",
+      "text": "A haunted fondue set"
+    },
+    {
+      "id": "base-a280",
+      "text": "A feral pigeon union"
+    },
+    {
+      "id": "base-a281",
+      "text": "Cursed calendar reminder"
+    },
+    {
+      "id": "base-a282",
+      "text": "Very personal haunting"
+    },
+    {
+      "id": "base-a283",
+      "text": "Suspiciously cheerful dentist"
+    },
+    {
+      "id": "base-a284",
+      "text": "A jar of expired hopes"
+    },
+    {
+      "id": "base-a285",
+      "text": "A dramatic owl stare"
+    },
+    {
+      "id": "base-a286",
+      "text": "A cursed karaoke microphone"
+    },
+    {
+      "id": "base-a287",
+      "text": "Badly behaved ghost"
+    },
+    {
+      "id": "base-a288",
+      "text": "A mysterious stain on your reputation"
+    },
+    {
+      "id": "base-a289",
+      "text": "A haunted bean bag"
+    },
+    {
+      "id": "base-a290",
+      "text": "A very aggressive compliment"
+    },
+    {
+      "id": "base-a291",
+      "text": "Cursed tote bag"
+    },
+    {
+      "id": "base-a292",
+      "text": "Questionable life coach from the woods"
+    },
+    {
+      "id": "base-a293",
+      "text": "Dramatic reading of the will"
+    },
+    {
+      "id": "base-a294",
+      "text": "Feral hamster with a vendetta"
+    },
+    {
+      "id": "base-a295",
+      "text": "Suspiciously cheerful coroner"
+    },
+    {
+      "id": "base-a296",
+      "text": "A haunted ukulele"
+    },
+    {
+      "id": "base-a297",
+      "text": "Cursed cheese platter"
+    },
+    {
+      "id": "base-a298",
+      "text": "Very small apocalypse"
+    },
+    {
+      "id": "base-a299",
+      "text": "A deeply unsettling giggle"
+    },
+    {
+      "id": "base-a300",
+      "text": "Badly timed trombone"
+    },
+    {
+      "id": "base-a301",
+      "text": "💀"
+    },
+    {
+      "id": "base-a302",
+      "text": "🤡"
+    },
+    {
+      "id": "base-a303",
+      "text": "🫠"
+    },
+    {
+      "id": "base-a304",
+      "text": "🔥"
+    },
+    {
+      "id": "base-a305",
+      "text": "🗿"
+    },
+    {
+      "id": "base-a306",
+      "text": "🤢"
+    },
+    {
+      "id": "base-a307",
+      "text": "💩"
+    },
+    {
+      "id": "base-a308",
+      "text": "🚩"
+    },
+    {
+      "id": "base-a309",
+      "text": "👀"
+    },
+    {
+      "id": "base-a310",
+      "text": "🪦"
+    }
+  ]
+}
