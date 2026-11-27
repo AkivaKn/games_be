@@ -6,6 +6,7 @@ import (
 	"boggle-api/internal/app"
 	boggleserver "boggle-api/internal/boggle/server"
 	millionaireserver "boggle-api/internal/millionaire/server"
+	outoflineserver "boggle-api/internal/outofline/server"
 )
 
 // ONE binary, BOTH games (the M-A1 fold). This entrypoint is deliberately
@@ -26,10 +27,11 @@ func main() {
 
 	boggleserver.NewModule(db, origins, limiters).RegisterRoutes(engine)
 	millionaireserver.NewModule(db, origins, limiters).RegisterRoutes(engine)
+	outoflineserver.NewModule(db, origins, limiters).RegisterRoutes(engine)
 
 	addr := app.ListenAddr()
-	log.Printf("Gin server starting on port %s (routes: /api/%s, /api/%s)",
-		addr, boggleserver.RoutePrefix, millionaireserver.RoutePrefix)
+	log.Printf("Gin server starting on port %s (routes: /api/%s, /api/%s, /api/%s)",
+		addr, boggleserver.RoutePrefix, millionaireserver.RoutePrefix, outoflineserver.RoutePrefix)
 	if err := engine.Run(addr); err != nil {
 		log.Fatalf("Server forced to shutdown: %v", err)
 	}

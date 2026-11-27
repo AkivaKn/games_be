@@ -1,0 +1,650 @@
+{
+  "id": "deadpan-doom",
+  "name": "Deadpan Doom",
+  "rating": "teen",
+  "description": "Morbid, absurd, and cheerfully bleak.",
+  "prompts": [
+    {
+      "id": "doom-p01",
+      "text": "The last message from humanity was just ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p02",
+      "text": "The afterlife turned out to be ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p03",
+      "text": "My gravestone will probably say ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p04",
+      "text": "The apocalypse was disappointing; it was mostly ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p05",
+      "text": "The grim reaper showed up early because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p06",
+      "text": "I found inner peace, but then I found ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p07",
+      "text": "The family curse is actually just ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p08",
+      "text": "The void stared back and asked about ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p09",
+      "text": "The last thing I saw before the lights went out was ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p10",
+      "text": "My coping mechanism is ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p11",
+      "text": "Heaven has a complaint desk specifically for ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p12",
+      "text": "The fortune cookie said, 'Your future holds ___.'",
+      "pick": 1
+    },
+    {
+      "id": "doom-p13",
+      "text": "The haunted house was actually just ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p14",
+      "text": "I asked for a sign from beyond and got ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p15",
+      "text": "The end times newsletter this week features ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p16",
+      "text": "My therapist said my aura looks like ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p17",
+      "text": "The skeleton in my closet is literally ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p18",
+      "text": "The meaning of life turned out to be ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p19",
+      "text": "The seance accidentally summoned ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p20",
+      "text": "The prophecy foretold ___ and mild inconvenience.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p21",
+      "text": "I made peace with death, but not with ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p22",
+      "text": "The obituary writer struggled to explain ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p23",
+      "text": "The zombie apocalypse was stopped by ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p24",
+      "text": "Hell is just ___ forever.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p25",
+      "text": "The ghost refused to haunt us because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p26",
+      "text": "My last words will probably be ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p27",
+      "text": "The time traveller came back to warn us about ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p28",
+      "text": "The cemetery's one-star review mentioned ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p29",
+      "text": "The cult's welcome pack included ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p30",
+      "text": "The abyss has a customer loyalty programme for ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p31",
+      "text": "I tried mindfulness and met ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p32",
+      "text": "The doomsday bunker was stocked with ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p33",
+      "text": "The angel at the gate asked why I brought ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p34",
+      "text": "The funeral playlist accidentally included ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p35",
+      "text": "My existential crisis comes with free ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p36",
+      "text": "The haunted doll just wants ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p37",
+      "text": "The world ended not with a bang, but with ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p38",
+      "text": "The ouija board spelled out ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p39",
+      "text": "The dark secret of the universe is ___.",
+      "pick": 1
+    },
+    {
+      "id": "doom-p40",
+      "text": "The worst thing to hear in a morgue is ___.",
+      "pick": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": "doom-a001",
+      "text": "A slow, disappointed sigh from the universe"
+    },
+    {
+      "id": "doom-a002",
+      "text": "Existential crisis in a queue"
+    },
+    {
+      "id": "doom-a003",
+      "text": "Skeleton with unfinished admin"
+    },
+    {
+      "id": "doom-a004",
+      "text": "A hauntingly familiar disappointment"
+    },
+    {
+      "id": "doom-a005",
+      "text": "Sweet release of a cancelled plan"
+    },
+    {
+      "id": "doom-a006",
+      "text": "A ghost with attachment issues"
+    },
+    {
+      "id": "doom-a007",
+      "text": "Coffin with bad Wi-Fi"
+    },
+    {
+      "id": "doom-a008",
+      "text": "A cheerful acceptance of doom"
+    },
+    {
+      "id": "doom-a009",
+      "text": "Funeral potato salad"
+    },
+    {
+      "id": "doom-a010",
+      "text": "Crow with a grudge"
+    },
+    {
+      "id": "doom-a011",
+      "text": "Tombstone typo"
+    },
+    {
+      "id": "doom-a012",
+      "text": "Mildly cursed heirloom"
+    },
+    {
+      "id": "doom-a013",
+      "text": "A bleak weather forecast for the soul"
+    },
+    {
+      "id": "doom-a014",
+      "text": "Polite apocalypse"
+    },
+    {
+      "id": "doom-a015",
+      "text": "A séance gone bureaucratic"
+    },
+    {
+      "id": "doom-a016",
+      "text": "A grim reaper on annual leave"
+    },
+    {
+      "id": "doom-a017",
+      "text": "Haunted to-do list"
+    },
+    {
+      "id": "doom-a018",
+      "text": "Void with customer service"
+    },
+    {
+      "id": "doom-a019",
+      "text": "Skeleton doing jazz hands"
+    },
+    {
+      "id": "doom-a020",
+      "text": "An afterlife waiting room"
+    },
+    {
+      "id": "doom-a021",
+      "text": "A coffin-shaped inbox zero"
+    },
+    {
+      "id": "doom-a022",
+      "text": "Ghost who just wants closure and snacks"
+    },
+    {
+      "id": "doom-a023",
+      "text": "A cursed lullaby"
+    },
+    {
+      "id": "doom-a024",
+      "text": "A gravestone with a five-star rating"
+    },
+    {
+      "id": "doom-a025",
+      "text": "A slow march into mild inconvenience"
+    },
+    {
+      "id": "doom-a026",
+      "text": "A demon with a clipboard"
+    },
+    {
+      "id": "doom-a027",
+      "text": "A haunted kettle"
+    },
+    {
+      "id": "doom-a028",
+      "text": "Philosophical pigeon"
+    },
+    {
+      "id": "doom-a029",
+      "text": "Dread-filled group hug"
+    },
+    {
+      "id": "doom-a030",
+      "text": "Very quiet scream"
+    },
+    {
+      "id": "doom-a031",
+      "text": "Tax bill from beyond the grave"
+    },
+    {
+      "id": "doom-a032",
+      "text": "A cursed family portrait"
+    },
+    {
+      "id": "doom-a033",
+      "text": "A skeleton in your search history"
+    },
+    {
+      "id": "doom-a034",
+      "text": "Dark cloud with great comedic timing"
+    },
+    {
+      "id": "doom-a035",
+      "text": "A funeral DJ taking requests"
+    },
+    {
+      "id": "doom-a036",
+      "text": "A mildly threatening fog"
+    },
+    {
+      "id": "doom-a037",
+      "text": "Ghosting, but literal"
+    },
+    {
+      "id": "doom-a038",
+      "text": "A coffin full of unanswered emails"
+    },
+    {
+      "id": "doom-a039",
+      "text": "A doomsday countdown on snooze"
+    },
+    {
+      "id": "doom-a040",
+      "text": "Vampire with burnout"
+    },
+    {
+      "id": "doom-a041",
+      "text": "A cursed rocking chair"
+    },
+    {
+      "id": "doom-a042",
+      "text": "A bleak motivational quote"
+    },
+    {
+      "id": "doom-a043",
+      "text": "Haunted mirror with opinions"
+    },
+    {
+      "id": "doom-a044",
+      "text": "Friendly little omen"
+    },
+    {
+      "id": "doom-a045",
+      "text": "Skull that sighs dramatically"
+    },
+    {
+      "id": "doom-a046",
+      "text": "A grim little chuckle"
+    },
+    {
+      "id": "doom-a047",
+      "text": "A spirit trapped in customer support"
+    },
+    {
+      "id": "doom-a048",
+      "text": "Graveyard with a gift shop"
+    },
+    {
+      "id": "doom-a049",
+      "text": "A ghost complaining about the heating"
+    },
+    {
+      "id": "doom-a050",
+      "text": "Prophecy with a typo"
+    },
+    {
+      "id": "doom-a051",
+      "text": "A depressing party balloon"
+    },
+    {
+      "id": "doom-a052",
+      "text": "A cursed snow angel"
+    },
+    {
+      "id": "doom-a053",
+      "text": "Haunted casserole dish"
+    },
+    {
+      "id": "doom-a054",
+      "text": "A skeleton with impostor syndrome"
+    },
+    {
+      "id": "doom-a055",
+      "text": "A funeral conga line"
+    },
+    {
+      "id": "doom-a056",
+      "text": "A void that charges subscription fees"
+    },
+    {
+      "id": "doom-a057",
+      "text": "Melancholy foghorn"
+    },
+    {
+      "id": "doom-a058",
+      "text": "A haunted paperclip"
+    },
+    {
+      "id": "doom-a059",
+      "text": "A death stare from a houseplant"
+    },
+    {
+      "id": "doom-a060",
+      "text": "Grim reaper in Crocs"
+    },
+    {
+      "id": "doom-a061",
+      "text": "Cursed self-help book"
+    },
+    {
+      "id": "doom-a062",
+      "text": "Slightly damp ghost"
+    },
+    {
+      "id": "doom-a063",
+      "text": "A doomsday prepper with no snacks"
+    },
+    {
+      "id": "doom-a064",
+      "text": "Haunted voicemail from yourself"
+    },
+    {
+      "id": "doom-a065",
+      "text": "A coffin on wheels"
+    },
+    {
+      "id": "doom-a066",
+      "text": "A very tired apocalypse horse"
+    },
+    {
+      "id": "doom-a067",
+      "text": "Ghost with unfinished gossip"
+    },
+    {
+      "id": "doom-a068",
+      "text": "A cemetery picnic"
+    },
+    {
+      "id": "doom-a069",
+      "text": "A depressing fortune"
+    },
+    {
+      "id": "doom-a070",
+      "text": "A skeleton with a five-year plan"
+    },
+    {
+      "id": "doom-a071",
+      "text": "A cursed bedtime story"
+    },
+    {
+      "id": "doom-a072",
+      "text": "Haunted thermos"
+    },
+    {
+      "id": "doom-a073",
+      "text": "A bleak little wave from the darkness"
+    },
+    {
+      "id": "doom-a074",
+      "text": "A funeral selfie stick"
+    },
+    {
+      "id": "doom-a075",
+      "text": "Vampire afraid of commitment"
+    },
+    {
+      "id": "doom-a076",
+      "text": "A grimly polite haunting"
+    },
+    {
+      "id": "doom-a077",
+      "text": "A skeleton crew, literally"
+    },
+    {
+      "id": "doom-a078",
+      "text": "A cursed music box"
+    },
+    {
+      "id": "doom-a079",
+      "text": "Ghostly passive-aggressive note"
+    },
+    {
+      "id": "doom-a080",
+      "text": "A void-shaped hole in your schedule"
+    },
+    {
+      "id": "doom-a081",
+      "text": "Haunted wedding ring"
+    },
+    {
+      "id": "doom-a082",
+      "text": "A morbid sense of humour"
+    },
+    {
+      "id": "doom-a083",
+      "text": "A very slow haunting"
+    },
+    {
+      "id": "doom-a084",
+      "text": "Cursed calendar counting down to something"
+    },
+    {
+      "id": "doom-a085",
+      "text": "A skeleton who owes you money"
+    },
+    {
+      "id": "doom-a086",
+      "text": "Ghost with a loyalty card"
+    },
+    {
+      "id": "doom-a087",
+      "text": "A doomsday cult bake sale"
+    },
+    {
+      "id": "doom-a088",
+      "text": "A cheerful skull"
+    },
+    {
+      "id": "doom-a089",
+      "text": "Haunted rubber duck"
+    },
+    {
+      "id": "doom-a090",
+      "text": "Tombstone that says 'brb'"
+    },
+    {
+      "id": "doom-a091",
+      "text": "A cursed fortune teller"
+    },
+    {
+      "id": "doom-a092",
+      "text": "Grim parade"
+    },
+    {
+      "id": "doom-a093",
+      "text": "Skeleton at a job interview"
+    },
+    {
+      "id": "doom-a094",
+      "text": "A haunted sock puppet"
+    },
+    {
+      "id": "doom-a095",
+      "text": "Bleak family reunion in the afterlife"
+    },
+    {
+      "id": "doom-a096",
+      "text": "A spooky but relatable ghost"
+    },
+    {
+      "id": "doom-a097",
+      "text": "A coffin-shaped piñata"
+    },
+    {
+      "id": "doom-a098",
+      "text": "Haunted complaint form"
+    },
+    {
+      "id": "doom-a099",
+      "text": "Deathly awkward silence"
+    },
+    {
+      "id": "doom-a100",
+      "text": "A final goodbye with jazz hands"
+    },
+    {
+      "id": "doom-a101",
+      "text": "💀"
+    },
+    {
+      "id": "doom-a102",
+      "text": "🪦"
+    },
+    {
+      "id": "doom-a103",
+      "text": "🕳️"
+    },
+    {
+      "id": "doom-a104",
+      "text": "🌫️"
+    },
+    {
+      "id": "doom-a105",
+      "text": "🗿"
+    },
+    {
+      "id": "doom-a106",
+      "text": "🫠"
+    },
+    {
+      "id": "doom-a107",
+      "text": "⚰️"
+    },
+    {
+      "id": "doom-a108",
+      "text": "🕯️"
+    },
+    {
+      "id": "doom-a109",
+      "text": "🌑"
+    },
+    {
+      "id": "doom-a110",
+      "text": "🚩"
+    }
+  ]
+}

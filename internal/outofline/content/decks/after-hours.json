@@ -1,0 +1,650 @@
+{
+  "id": "after-hours",
+  "name": "After Hours",
+  "description": "Suggestive, flirty, and best kept for the grown-ups.",
+  "rating": "adult",
+  "prompts": [
+    {
+      "id": "after-p01",
+      "text": "The dating profile was going well until ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p02",
+      "text": "The bedroom lost its magic because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p03",
+      "text": "The morning-after text simply said ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p04",
+      "text": "The hotel's honeymoon suite came with ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p05",
+      "text": "The most awkward thing to find in a partner's bedside drawer is ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p06",
+      "text": "The anniversary dinner ended with ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p07",
+      "text": "The couple's therapist suggested ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p08",
+      "text": "The romantic getaway was ruined by ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p09",
+      "text": "The first date took a turn when ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p10",
+      "text": "The wedding night was delayed by ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p11",
+      "text": "The secret to a spicy relationship is ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p12",
+      "text": "The new dating app matches people based on their shared love of ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p13",
+      "text": "The most questionable thing to bring to a sleepover is ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p14",
+      "text": "The relationship survived despite ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p15",
+      "text": "The sex ed class was not prepared for ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p16",
+      "text": "The couple's new roleplay scenario involves ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p17",
+      "text": "The hotel room service order included ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p18",
+      "text": "The breakup was caused by ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p19",
+      "text": "The most romantic thing in the flat is ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p20",
+      "text": "The couple's ideal date combines ___ with ___.",
+      "pick": 2
+    },
+    {
+      "id": "after-p21",
+      "text": "The flirty text went wrong when I mentioned ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p22",
+      "text": "The candlelit dinner got weird because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p23",
+      "text": "The couple's safe word is apparently ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p24",
+      "text": "The romantic weekend packing list included ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p25",
+      "text": "The date was going well until the waiter brought ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p26",
+      "text": "The bedroom playlist accidentally included ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p27",
+      "text": "The couple's private joke is now just ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p28",
+      "text": "The steamy novel was secretly just about ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p29",
+      "text": "The morning after was ruined by ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p30",
+      "text": "The romantic surprise turned out to be ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p31",
+      "text": "The dating app bio should never mention ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p32",
+      "text": "The couple tried to spice things up by ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p33",
+      "text": "The hotel minibar bill included ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p34",
+      "text": "The love letter got weird around the part about ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p35",
+      "text": "The romantic bath was interrupted by ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p36",
+      "text": "The flirty game night escalated into everyone ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p37",
+      "text": "The worst thing to whisper is ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p38",
+      "text": "The date ended with a long conversation about ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p39",
+      "text": "The secret drawer definitely contains ___.",
+      "pick": 1
+    },
+    {
+      "id": "after-p40",
+      "text": "The couple's anniversary gift was ___.",
+      "pick": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": "after-a001",
+      "text": "A very awkward silence"
+    },
+    {
+      "id": "after-a002",
+      "text": "Unpaid emotional invoice"
+    },
+    {
+      "id": "after-a003",
+      "text": "Suspiciously confident wink"
+    },
+    {
+      "id": "after-a004",
+      "text": "Wrong kind of candle"
+    },
+    {
+      "id": "after-a005",
+      "text": "A deeply unromantic playlist"
+    },
+    {
+      "id": "after-a006",
+      "text": "A surprise visit from a parent"
+    },
+    {
+      "id": "after-a007",
+      "text": "An emotional support ex"
+    },
+    {
+      "id": "after-a008",
+      "text": "Hotel room with one towel"
+    },
+    {
+      "id": "after-a009",
+      "text": "Very public display of affection"
+    },
+    {
+      "id": "after-a010",
+      "text": "Questionable massage technique"
+    },
+    {
+      "id": "after-a011",
+      "text": "Mysterious stain on the ceiling"
+    },
+    {
+      "id": "after-a012",
+      "text": "A very small bottle of champagne"
+    },
+    {
+      "id": "after-a013",
+      "text": "Aggressively scented candle"
+    },
+    {
+      "id": "after-a014",
+      "text": "Dramatic declaration of love"
+    },
+    {
+      "id": "after-a015",
+      "text": "The wrong name at the worst moment"
+    },
+    {
+      "id": "after-a016",
+      "text": "An uninvited pet"
+    },
+    {
+      "id": "after-a017",
+      "text": "Deeply personal search history"
+    },
+    {
+      "id": "after-a018",
+      "text": "A suspiciously flexible yoga instructor"
+    },
+    {
+      "id": "after-a019",
+      "text": "An emergency trip to the pharmacy"
+    },
+    {
+      "id": "after-a020",
+      "text": "Very serious conversation about boundaries"
+    },
+    {
+      "id": "after-a021",
+      "text": "A matching tattoo"
+    },
+    {
+      "id": "after-a022",
+      "text": "The world's least private hotel balcony"
+    },
+    {
+      "id": "after-a023",
+      "text": "Very confident karaoke duet"
+    },
+    {
+      "id": "after-a024",
+      "text": "Very public confession"
+    },
+    {
+      "id": "after-a025",
+      "text": "A surprisingly emotional hug"
+    },
+    {
+      "id": "after-a026",
+      "text": "Bottle of something cheap"
+    },
+    {
+      "id": "after-a027",
+      "text": "Wrong kind of roleplay"
+    },
+    {
+      "id": "after-a028",
+      "text": "Very public argument"
+    },
+    {
+      "id": "after-a029",
+      "text": "An unromantic snack"
+    },
+    {
+      "id": "after-a030",
+      "text": "A suspiciously detailed fantasy"
+    },
+    {
+      "id": "after-a031",
+      "text": "The last slice of cheesecake"
+    },
+    {
+      "id": "after-a032",
+      "text": "A deeply awkward morning after"
+    },
+    {
+      "id": "after-a033",
+      "text": "A very serious discussion about labels"
+    },
+    {
+      "id": "after-a034",
+      "text": "A very personal playlist"
+    },
+    {
+      "id": "after-a035",
+      "text": "Surprise pair of handcuffs"
+    },
+    {
+      "id": "after-a036",
+      "text": "A deeply questionable dating history"
+    },
+    {
+      "id": "after-a037",
+      "text": "The wrong kind of massage oil"
+    },
+    {
+      "id": "after-a038",
+      "text": "An uninvited third wheel"
+    },
+    {
+      "id": "after-a039",
+      "text": "A very serious conversation about the future"
+    },
+    {
+      "id": "after-a040",
+      "text": "A dramatic bedroom entrance"
+    },
+    {
+      "id": "after-a041",
+      "text": "A suspiciously romantic spreadsheet"
+    },
+    {
+      "id": "after-a042",
+      "text": "Last remaining spark"
+    },
+    {
+      "id": "after-a043",
+      "text": "Very awkward walk of shame"
+    },
+    {
+      "id": "after-a044",
+      "text": "Accidental pocket dial"
+    },
+    {
+      "id": "after-a045",
+      "text": "Deeply personal love letter"
+    },
+    {
+      "id": "after-a046",
+      "text": "Very small piece of lingerie"
+    },
+    {
+      "id": "after-a047",
+      "text": "Surprisingly competitive partner"
+    },
+    {
+      "id": "after-a048",
+      "text": "Wrong kind of breakfast in bed"
+    },
+    {
+      "id": "after-a049",
+      "text": "An unromantic hotel carpet"
+    },
+    {
+      "id": "after-a050",
+      "text": "Very serious conversation about consent"
+    },
+    {
+      "id": "after-a051",
+      "text": "Badly timed pet stare"
+    },
+    {
+      "id": "after-a052",
+      "text": "Overly detailed fantasy football metaphor"
+    },
+    {
+      "id": "after-a053",
+      "text": "Silk robe and terrible intentions"
+    },
+    {
+      "id": "after-a054",
+      "text": "A suspiciously loud neighbour"
+    },
+    {
+      "id": "after-a055",
+      "text": "A playlist called 'Sad but Horny'"
+    },
+    {
+      "id": "after-a056",
+      "text": "An accidental FaceTime from Mum"
+    },
+    {
+      "id": "after-a057",
+      "text": "Very confident strip tease to the wrong song"
+    },
+    {
+      "id": "after-a058",
+      "text": "A broken bed frame and no explanation"
+    },
+    {
+      "id": "after-a059",
+      "text": "Bottle of massage oil from the discount bin"
+    },
+    {
+      "id": "after-a060",
+      "text": "Romantic dinner with too much eye contact"
+    },
+    {
+      "id": "after-a061",
+      "text": "A flirty text sent to the wrong chat"
+    },
+    {
+      "id": "after-a062",
+      "text": "A lace situation gone wrong"
+    },
+    {
+      "id": "after-a063",
+      "text": "A surprisingly intense game of footsie"
+    },
+    {
+      "id": "after-a064",
+      "text": "A candle that smells like regret"
+    },
+    {
+      "id": "after-a065",
+      "text": "A dramatic removal of socks"
+    },
+    {
+      "id": "after-a066",
+      "text": "A love bite in a very visible place"
+    },
+    {
+      "id": "after-a067",
+      "text": "Sexy voice that turned into a cough"
+    },
+    {
+      "id": "after-a068",
+      "text": "Satin sheet disaster"
+    },
+    {
+      "id": "after-a069",
+      "text": "Very personal ringtone"
+    },
+    {
+      "id": "after-a070",
+      "text": "Suggestive banana incident"
+    },
+    {
+      "id": "after-a071",
+      "text": "Bedroom mirror in the wrong place"
+    },
+    {
+      "id": "after-a072",
+      "text": "A flirty compliment that sounded like a threat"
+    },
+    {
+      "id": "after-a073",
+      "text": "A bottle of cheap prosecco and ambition"
+    },
+    {
+      "id": "after-a074",
+      "text": "Heart-shaped pizza after midnight"
+    },
+    {
+      "id": "after-a075",
+      "text": "A very awkward safe word negotiation"
+    },
+    {
+      "id": "after-a076",
+      "text": "Steamy shower ruined by cold water"
+    },
+    {
+      "id": "after-a077",
+      "text": "A suspiciously squeaky mattress"
+    },
+    {
+      "id": "after-a078",
+      "text": "A romantic gesture that caused a minor injury"
+    },
+    {
+      "id": "after-a079",
+      "text": "Poorly timed cramp"
+    },
+    {
+      "id": "after-a080",
+      "text": "Pair of fuzzy handcuffs and no key"
+    },
+    {
+      "id": "after-a081",
+      "text": "A lingerie choice made in panic"
+    },
+    {
+      "id": "after-a082",
+      "text": "Late-night confession that went too far"
+    },
+    {
+      "id": "after-a083",
+      "text": "A sexy dance with zero rhythm"
+    },
+    {
+      "id": "after-a084",
+      "text": "A bite mark and a lot of questions"
+    },
+    {
+      "id": "after-a085",
+      "text": "Romantic text autocorrected to disaster"
+    },
+    {
+      "id": "after-a086",
+      "text": "Whipped cream situation nobody planned"
+    },
+    {
+      "id": "after-a087",
+      "text": "A very intense staring contest"
+    },
+    {
+      "id": "after-a088",
+      "text": "A perfume that smelled like desperation"
+    },
+    {
+      "id": "after-a089",
+      "text": "Bed covered in rose petals and crumbs"
+    },
+    {
+      "id": "after-a090",
+      "text": "Flirty wink from the wrong eye"
+    },
+    {
+      "id": "after-a091",
+      "text": "Morning-after walk of mild shame"
+    },
+    {
+      "id": "after-a092",
+      "text": "A hot tub with too many strangers"
+    },
+    {
+      "id": "after-a093",
+      "text": "A suggestive comment at the worst moment"
+    },
+    {
+      "id": "after-a094",
+      "text": "Very dramatic moan from the sofa"
+    },
+    {
+      "id": "after-a095",
+      "text": "Romantic getaway with thin walls"
+    },
+    {
+      "id": "after-a096",
+      "text": "Silk tie used irresponsibly"
+    },
+    {
+      "id": "after-a097",
+      "text": "A kiss that missed by a mile"
+    },
+    {
+      "id": "after-a098",
+      "text": "A spicy photo sent to the cloud by accident"
+    },
+    {
+      "id": "after-a099",
+      "text": "A pair of underwear on the ceiling fan"
+    },
+    {
+      "id": "after-a100",
+      "text": "A very personal lubricant review"
+    },
+    {
+      "id": "after-a101",
+      "text": "😈"
+    },
+    {
+      "id": "after-a102",
+      "text": "🔥"
+    },
+    {
+      "id": "after-a103",
+      "text": "🫦"
+    },
+    {
+      "id": "after-a104",
+      "text": "💋"
+    },
+    {
+      "id": "after-a105",
+      "text": "🚩"
+    },
+    {
+      "id": "after-a106",
+      "text": "🫠"
+    },
+    {
+      "id": "after-a107",
+      "text": "👀"
+    },
+    {
+      "id": "after-a108",
+      "text": "💦"
+    },
+    {
+      "id": "after-a109",
+      "text": "🥵"
+    },
+    {
+      "id": "after-a110",
+      "text": "🛏️"
+    }
+  ]
+}

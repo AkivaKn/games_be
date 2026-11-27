@@ -1,0 +1,650 @@
+{
+  "id": "family-gathering",
+  "name": "Family Gathering",
+  "rating": "teen",
+  "description": "Awkward relatives, old grudges, and dinner table disasters.",
+  "prompts": [
+    {
+      "id": "family-p01",
+      "text": "The family dinner went silent after someone mentioned ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p02",
+      "text": "Grandma's will surprisingly left everything to ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p03",
+      "text": "The holiday argument started over ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p04",
+      "text": "Nobody talks about the Christmas of ___ anymore.",
+      "pick": 1
+    },
+    {
+      "id": "family-p05",
+      "text": "The family WhatsApp blew up because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p06",
+      "text": "Uncle's new business idea is ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p07",
+      "text": "The kids' table overheard ___ and will never recover.",
+      "pick": 1
+    },
+    {
+      "id": "family-p08",
+      "text": "The family reunion T-shirt featured ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p09",
+      "text": "The worst thing to bring up at Thanksgiving is ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p10",
+      "text": "Auntie's 'secret recipe' turned out to be ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p11",
+      "text": "The family photo album is mostly evidence of ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p12",
+      "text": "The polite smile hid a deep rage about ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p13",
+      "text": "Dad's toast included an uncomfortable amount of ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p14",
+      "text": "The family game night ended in tears over ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p15",
+      "text": "The only thing everyone agrees on is ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p16",
+      "text": "Mum said we don't talk about ___ at the table.",
+      "pick": 1
+    },
+    {
+      "id": "family-p17",
+      "text": "The cousin everyone warns you about brought ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p18",
+      "text": "The family secret was finally revealed: ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p19",
+      "text": "The group photo pose was ruined by ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p20",
+      "text": "The seating plan was designed to keep ___ away from ___.",
+      "pick": 2
+    },
+    {
+      "id": "family-p21",
+      "text": "The heirloom turned out to be ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p22",
+      "text": "The birthday party for Grandpa got weird because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p23",
+      "text": "The wedding speech mentioned ___ one too many times.",
+      "pick": 1
+    },
+    {
+      "id": "family-p24",
+      "text": "The family vacation was destroyed by ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p25",
+      "text": "The passive-aggressive note on the fridge said ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p26",
+      "text": "Nobody expected ___ to show up with ___.",
+      "pick": 2
+    },
+    {
+      "id": "family-p27",
+      "text": "The family tradition nobody likes involves ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p28",
+      "text": "The polite conversation died when someone asked about ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p29",
+      "text": "The sibling rivalry reached its peak over ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p30",
+      "text": "The worst seat at the table is next to ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p31",
+      "text": "The family pet has seen too much ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p32",
+      "text": "The surprise guest was ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p33",
+      "text": "The argument over the thermostat escalated into ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p34",
+      "text": "The family group chat was muted because of ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p35",
+      "text": "The dessert course was interrupted by ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p36",
+      "text": "The most cursed thing in Grandma's attic is ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p37",
+      "text": "The family motto should really be ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p38",
+      "text": "The toast everyone regrets mentioned ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p39",
+      "text": "The kids learned a new word: ___.",
+      "pick": 1
+    },
+    {
+      "id": "family-p40",
+      "text": "The family meeting was called to discuss ___.",
+      "pick": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": "family-a001",
+      "text": "Passive-aggressive potato salad"
+    },
+    {
+      "id": "family-a002",
+      "text": "An uncle's three-hour conspiracy theory"
+    },
+    {
+      "id": "family-a003",
+      "text": "A deeply awkward hug from a relative you don't remember"
+    },
+    {
+      "id": "family-a004",
+      "text": "A family argument older than you"
+    },
+    {
+      "id": "family-a005",
+      "text": "A casserole with mysterious motives"
+    },
+    {
+      "id": "family-a006",
+      "text": "A dramatic reading of the will with theatrical pauses"
+    },
+    {
+      "id": "family-a007",
+      "text": "A cousin's pyramid scheme"
+    },
+    {
+      "id": "family-a008",
+      "text": "A childhood nickname you hate"
+    },
+    {
+      "id": "family-a009",
+      "text": "Very loud political opinion"
+    },
+    {
+      "id": "family-a010",
+      "text": "Photo album full of regrettable haircuts"
+    },
+    {
+      "id": "family-a011",
+      "text": "A seating chart designed for war"
+    },
+    {
+      "id": "family-a012",
+      "text": "Grandparent's unfiltered comment"
+    },
+    {
+      "id": "family-a013",
+      "text": "A sibling's smug little smile"
+    },
+    {
+      "id": "family-a014",
+      "text": "A burnt turkey and burned bridges"
+    },
+    {
+      "id": "family-a015",
+      "text": "A surprise engagement nobody wanted"
+    },
+    {
+      "id": "family-a016",
+      "text": "Family recipe that should stay lost"
+    },
+    {
+      "id": "family-a017",
+      "text": "A Monopoly game that ended relationships"
+    },
+    {
+      "id": "family-a018",
+      "text": "Long story with no point"
+    },
+    {
+      "id": "family-a019",
+      "text": "A relative who claps when the plane lands"
+    },
+    {
+      "id": "family-a020",
+      "text": "Secret family recipe for resentment"
+    },
+    {
+      "id": "family-a021",
+      "text": "Passive-aggressive 'bless your heart'"
+    },
+    {
+      "id": "family-a022",
+      "text": "Bottle of wine opened too early"
+    },
+    {
+      "id": "family-a023",
+      "text": "Very tense carving of the roast"
+    },
+    {
+      "id": "family-a024",
+      "text": "Cousin's new tattoo explained badly"
+    },
+    {
+      "id": "family-a025",
+      "text": "A baby photo used as blackmail"
+    },
+    {
+      "id": "family-a026",
+      "text": "A heated debate about the gravy"
+    },
+    {
+      "id": "family-a027",
+      "text": "Chair that breaks at the worst moment"
+    },
+    {
+      "id": "family-a028",
+      "text": "Family tradition of emotional damage"
+    },
+    {
+      "id": "family-a029",
+      "text": "A weirdly competitive game of charades"
+    },
+    {
+      "id": "family-a030",
+      "text": "A smile that means war"
+    },
+    {
+      "id": "family-a031",
+      "text": "A forgotten name mid-introduction"
+    },
+    {
+      "id": "family-a032",
+      "text": "A relative asking about your love life"
+    },
+    {
+      "id": "family-a033",
+      "text": "Dramatic storm-out before dessert"
+    },
+    {
+      "id": "family-a034",
+      "text": "Mystery stain on the good tablecloth"
+    },
+    {
+      "id": "family-a035",
+      "text": "Toast that goes on forever"
+    },
+    {
+      "id": "family-a036",
+      "text": "Dog who hates one specific relative"
+    },
+    {
+      "id": "family-a037",
+      "text": "Whispered argument in the kitchen"
+    },
+    {
+      "id": "family-a038",
+      "text": "Leftover container claimed like treasure"
+    },
+    {
+      "id": "family-a039",
+      "text": "A fake laugh heard across the room"
+    },
+    {
+      "id": "family-a040",
+      "text": "Family rumour with legs"
+    },
+    {
+      "id": "family-a041",
+      "text": "A backhanded compliment"
+    },
+    {
+      "id": "family-a042",
+      "text": "A very personal question at full volume"
+    },
+    {
+      "id": "family-a043",
+      "text": "A childhood trauma brought up casually"
+    },
+    {
+      "id": "family-a044",
+      "text": "Badly timed announcement"
+    },
+    {
+      "id": "family-a045",
+      "text": "A relative who corrects everyone"
+    },
+    {
+      "id": "family-a046",
+      "text": "A cursed family photo pose"
+    },
+    {
+      "id": "family-a047",
+      "text": "A pie with something to prove"
+    },
+    {
+      "id": "family-a048",
+      "text": "A tense silence over mashed potatoes"
+    },
+    {
+      "id": "family-a049",
+      "text": "A 'fun' fact nobody asked for"
+    },
+    {
+      "id": "family-a050",
+      "text": "Sibling bringing up something from 2007"
+    },
+    {
+      "id": "family-a051",
+      "text": "Lukewarm apology"
+    },
+    {
+      "id": "family-a052",
+      "text": "Chaotic gift exchange"
+    },
+    {
+      "id": "family-a053",
+      "text": "A relative who overshares immediately"
+    },
+    {
+      "id": "family-a054",
+      "text": "A suspiciously cheerful divorcee"
+    },
+    {
+      "id": "family-a055",
+      "text": "A folding table for the least favoured"
+    },
+    {
+      "id": "family-a056",
+      "text": "Family pet stealing the turkey"
+    },
+    {
+      "id": "family-a057",
+      "text": "Karaoke performance of old grudges"
+    },
+    {
+      "id": "family-a058",
+      "text": "A will reading with dramatic pauses"
+    },
+    {
+      "id": "family-a059",
+      "text": "'just joking' insult"
+    },
+    {
+      "id": "family-a060",
+      "text": "Very aggressive board game"
+    },
+    {
+      "id": "family-a061",
+      "text": "A relative asleep in the mashed potatoes"
+    },
+    {
+      "id": "family-a062",
+      "text": "Family heirloom nobody wants"
+    },
+    {
+      "id": "family-a063",
+      "text": "A burnt pie and burning resentment"
+    },
+    {
+      "id": "family-a064",
+      "text": "Toast that becomes a confession"
+    },
+    {
+      "id": "family-a065",
+      "text": "A cryptic comment from Grandma"
+    },
+    {
+      "id": "family-a066",
+      "text": "A group photo where everyone is lying with their eyes"
+    },
+    {
+      "id": "family-a067",
+      "text": "A passive-aggressive fridge note"
+    },
+    {
+      "id": "family-a068",
+      "text": "Political debate nobody survived"
+    },
+    {
+      "id": "family-a069",
+      "text": "A relative who brought their own chair"
+    },
+    {
+      "id": "family-a070",
+      "text": "A surprise plus-one with main character energy"
+    },
+    {
+      "id": "family-a071",
+      "text": "Dessert dropped face-down"
+    },
+    {
+      "id": "family-a072",
+      "text": "A bitter fight over the last roll"
+    },
+    {
+      "id": "family-a073",
+      "text": "A family secret in the gravy boat"
+    },
+    {
+      "id": "family-a074",
+      "text": "Child repeating something they shouldn't have heard"
+    },
+    {
+      "id": "family-a075",
+      "text": "A dramatic eye-roll across generations"
+    },
+    {
+      "id": "family-a076",
+      "text": "A suspiciously cheap bottle of wine"
+    },
+    {
+      "id": "family-a077",
+      "text": "A hug that lasted too long"
+    },
+    {
+      "id": "family-a078",
+      "text": "A relative who 'tells it like it is'"
+    },
+    {
+      "id": "family-a079",
+      "text": "Broken chair and a broken spirit"
+    },
+    {
+      "id": "family-a080",
+      "text": "Three-hour story about traffic"
+    },
+    {
+      "id": "family-a081",
+      "text": "A family meeting nobody asked for"
+    },
+    {
+      "id": "family-a082",
+      "text": "Haunted family recipe card"
+    },
+    {
+      "id": "family-a083",
+      "text": "Name mispronounced for 20 years"
+    },
+    {
+      "id": "family-a084",
+      "text": "Very public family feud"
+    },
+    {
+      "id": "family-a085",
+      "text": "Passive-aggressive thank-you note"
+    },
+    {
+      "id": "family-a086",
+      "text": "A wedding invite with conditions"
+    },
+    {
+      "id": "family-a087",
+      "text": "A casserole-based peace offering"
+    },
+    {
+      "id": "family-a088",
+      "text": "Relative who brought Tupperware 'just in case'"
+    },
+    {
+      "id": "family-a089",
+      "text": "Deeply uncomfortable toast"
+    },
+    {
+      "id": "family-a090",
+      "text": "A game of cards with generational grudges"
+    },
+    {
+      "id": "family-a091",
+      "text": "A missing slice of cake and a prime suspect"
+    },
+    {
+      "id": "family-a092",
+      "text": "A family portrait with forced smiles"
+    },
+    {
+      "id": "family-a093",
+      "text": "A badly hidden eye-roll"
+    },
+    {
+      "id": "family-a094",
+      "text": "A generational curse called 'communication issues'"
+    },
+    {
+      "id": "family-a095",
+      "text": "A very tense game of trivia"
+    },
+    {
+      "id": "family-a096",
+      "text": "A dramatic announcement at dessert"
+    },
+    {
+      "id": "family-a097",
+      "text": "A lukewarm cup of family resentment"
+    },
+    {
+      "id": "family-a098",
+      "text": "A relative live-commenting the meal"
+    },
+    {
+      "id": "family-a099",
+      "text": "Photo tagged without consent"
+    },
+    {
+      "id": "family-a100",
+      "text": "A goodbye that takes 45 minutes"
+    },
+    {
+      "id": "family-a101",
+      "text": "🍽️"
+    },
+    {
+      "id": "family-a102",
+      "text": "💀"
+    },
+    {
+      "id": "family-a103",
+      "text": "🤡"
+    },
+    {
+      "id": "family-a104",
+      "text": "🚩"
+    },
+    {
+      "id": "family-a105",
+      "text": "👀"
+    },
+    {
+      "id": "family-a106",
+      "text": "🫠"
+    },
+    {
+      "id": "family-a107",
+      "text": "🔥"
+    },
+    {
+      "id": "family-a108",
+      "text": "📞"
+    },
+    {
+      "id": "family-a109",
+      "text": "🧨"
+    },
+    {
+      "id": "family-a110",
+      "text": "🪑"
+    }
+  ]
+}
