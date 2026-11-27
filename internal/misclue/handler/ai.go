@@ -23,11 +23,9 @@ type Handler struct {
 func New(llm *llm.Client) *Handler { return &Handler{llm: llm} }
 
 type PlayerState struct {
-	Seat        int    `json:"seat"`
-	Name        string `json:"name"`
-	Alive       bool   `json:"alive"`
-	IsAI        bool   `json:"isAi"`
-	CharacterID string `json:"characterId,omitempty"`
+	Seat  int    `json:"seat"`
+	Name  string `json:"name"`
+	Alive bool   `json:"alive"`
 }
 
 type ClueState struct {
@@ -43,14 +41,15 @@ type EliminatedState struct {
 }
 
 type PublicState struct {
+	Round      int               `json:"round"`
 	Players    []PlayerState     `json:"players"`
 	Clues      []ClueState       `json:"clues"`
 	Eliminated []EliminatedState `json:"eliminated"`
 }
 
 type PrivateState struct {
-	Role string `json:"role"`
-	Word string `json:"word"`
+	Word      string `json:"word"`
+	IsDrifter bool   `json:"isDrifter"`
 }
 
 type Rules struct {
@@ -135,46 +134,78 @@ func (h *Handler) generate(ctx context.Context, char content.Character, req Turn
 
 func buildSystem(char content.Character, req TurnRequest) string {
 	return fmt.Sprintf(`You are playing Misclue, a social deduction word game.
-Character persona: %s
+Your persona: %s
+Winning is the priority; the persona only affects tone and style.
 
-Rules:
-- Roles: Natives share the same secret word. Tourists have a similar but different word. Drifter has NO word and must bluff.
-- You must only use information you are given. Never invent hidden facts.
-- Return ONLY valid JSON. No markdown, no explanation outside JSON.
-- Clues must be short (1-4 words), must not contain the secret word, must not be empty.
-- Vote target must be an alive seat number that is not yourself.
-- Drifter guess should be a short word/phrase guess of the Native word.
-`, char.Persona)
+Game rules:
+- Most players get the same secret word. Some get a similar but different word. The Drifter gets no word.
+- Players with a word are NOT told whether they have the majority word or the similar word.
+- The Drifter is told they are the Drifter and has no word. The Drifter must bluff.
+- Use only information you are given. Never invent hidden facts or claim to know who has which word.
+- Eliminated players' roles are public information.
+
+Clue rules:
+- Give ONE short clue: 1-4 words, max %d characters.
+- Never say your secret word, a direct synonym, a translation, or a dictionary definition of it.
+- Be specific but ambiguous: a concrete association that could plausibly fit several related words, not only your exact word.
+- Match the group's style and specificity. Do not repeat or closely paraphrase another clue.
+- Avoid generic filler like "thing", "object", or "stuff", and avoid overly precise descriptions.
+- Write like a casual player, not an encyclopedia. Vary your phrasing.
+- Do not explain your clue, and do not mention your role or word.
+
+Strategy:
+- If you have a word: give a clue that fits your word but could also plausibly fit a related word. You do not know whether you are in the majority or minority.
+- If you are the Drifter: infer the theme from earlier clues and eliminations. Give a concrete clue that fits the theme. Never give an obviously random, evasive, or meta clue.
+- Voting: vote for the alive player whose clues fit your word or the emerging theme least, or whose clues/votes seem inconsistent. Consider clue history. Do not vote for yourself.
+- If you are the Drifter: vote to survive and deflect suspicion without being obvious.
+- Drifter guess: if eliminated as Drifter, use clues and previous results to guess the Natives' secret word. Return a specific word/phrase.
+
+Output:
+- Return ONLY valid JSON. No markdown.
+- You may include a brief "reason" field, but the required action field must be correct.
+`, char.Persona, req.Rules.MaxClueLength)
 }
 
 func buildUser(req TurnRequest) string {
 	publicJSON, _ := json.Marshal(req.PublicState)
-	privateJSON, _ := json.Marshal(req.PrivateState)
 	switch req.Action {
 	case "clue":
+		identity := "You have a secret word. You are not told whether it is the majority word or the similar word."
+		if req.PrivateState.IsDrifter {
+			identity = "You are the Drifter. You have no word. Bluff and blend in."
+		}
 		return fmt.Sprintf(`Action: clue
+Round: %d
 Your seat: %d
+%s
+Your secret word: %q
 Public state JSON: %s
-Your private state JSON: %s
 Max clue length: %d
 
-Return JSON: {"clue":"..."}`, req.Seat, publicJSON, privateJSON, req.Rules.MaxClueLength)
+Return JSON: {"clue":"...","reason":"..."}`, req.PublicState.Round, req.Seat, identity, req.PrivateState.Word, publicJSON, req.Rules.MaxClueLength)
 	case "vote":
+		identity := "You have a secret word. Vote based on which clues fit your word or the emerging theme least, or which players seem inconsistent."
+		if req.PrivateState.IsDrifter {
+			identity = "You are the Drifter. You have no word. Vote to survive and deflect suspicion."
+		}
 		return fmt.Sprintf(`Action: vote
+Round: %d
 Your seat: %d
+%s
+Your secret word: %q
 Public state JSON: %s
-Your private state JSON: %s
 
-Return JSON: {"targetSeat": <seat number>}`, req.Seat, publicJSON, privateJSON)
+Return JSON: {"targetSeat": <alive seat number>, "reason":"..."}`, req.PublicState.Round, req.Seat, identity, req.PrivateState.Word, publicJSON)
 	case "drifter_guess":
 		return fmt.Sprintf(`Action: drifter_guess
+Round: %d
 Your seat: %d
-Public state JSON: %s
-Your private state JSON: %s
-
 You are the Drifter and were eliminated. Guess the Natives' secret word.
-Return JSON: {"guess":"..."}`, req.Seat, publicJSON, privateJSON)
+Public state JSON: %s
+
+Return JSON: {"guess":"...","reason":"..."}`, req.PublicState.Round, req.Seat, publicJSON)
 	default:
+		privateJSON, _ := json.Marshal(req.PrivateState)
 		return fmt.Sprintf(`Action: %s
 Public state JSON: %s
 Private state JSON: %s
