@@ -9,6 +9,9 @@ RUN go build -o main ./cmd/api/main.go
 # Run stage
 FROM debian:bookworm-slim
 WORKDIR /app
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
 COPY --from=builder /app/main .
 # Azure Container Apps uses PORT environment variable, usually 8080
 EXPOSE 8080
